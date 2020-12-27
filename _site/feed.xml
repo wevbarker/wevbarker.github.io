@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-27T23:56:37+00:00</updated><id>/feed.xml</id><title type="html">Will Barker (威廉 巴克尔) | theoretical physicist and cosmologist</title><subtitle>I have no social media. </subtitle><entry><title type="html">New arXiv review blog coming soon!</title><link href="/2020/12/22/testpost.html" rel="alternate" type="text/html" title="New arXiv review blog coming soon!" /><published>2020-12-22T00:00:00+00:00</published><updated>2020-12-22T00:00:00+00:00</updated><id>/2020/12/22/testpost</id><content type="html" xml:base="/2020/12/22/testpost.html">&lt;head&gt;
+&lt;script src=&quot;https://polyfill.io/v3/polyfill.min.js?features=es6&quot;&gt;&lt;/script&gt;
+&lt;script id=&quot;MathJax-script&quot; async=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;&gt;
+  &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;
+I'm setting up Blo\(g_{\mu\nu}\) to further hone my skills as a peer-review referee, and to draw well-deserved attention to new preprints that I find interesting. The idea is to write a short review of at least one preprint per week, likely drawn from the &lt;tt&gt;[gr-qc]&lt;/tt&gt;, &lt;tt&gt;[astro-ph]&lt;/tt&gt; or &lt;tt&gt;[hep-th]&lt;/tt&gt; arXiv.
+&lt;/p&gt;
+&lt;p&gt;
+This will likely start in the new year, as I still need to figure out comments on &lt;tt&gt;disqus&lt;/tt&gt;, and how to handle arXiv trackbacks and &lt;tt&gt;RSS&lt;/tt&gt; so that the authors are properly credited.
+&lt;/p&gt;
+&lt;p&gt;
+The idea for Blo\(g_{\mu\nu}\) is unashamedly stolen from Dr. Sunny Vagnozzi's &lt;a href=&quot;https://www.sunnyvagnozzi.com/blog&quot;&gt;His Dark CMBlog&lt;/a&gt;. Sunny's &lt;a href=&quot;https://www.sunnyvagnozzi.com/&quot;&gt;entire website&lt;/a&gt; is absolutely fantastic, and you should explore it before reading any more of my posts.
+&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>

@@ -1,0 +1,16 @@
+I"<head>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+
+<p>
+I'm setting up Blo\(g_{\mu\nu}\) to further hone my skills as a peer-review referee, and to draw well-deserved attention to new preprints that I find interesting. The idea is to write a short review of at least one preprint per week, likely drawn from the <tt>[gr-qc]</tt>, <tt>[astro-ph]</tt> or <tt>[hep-th]</tt> arXiv.
+</p>
+<p>
+This will likely start in the new year, as I still need to figure out comments on <tt>disqus</tt>, and how to handle arXiv trackbacks and <tt>RSS</tt> so that the authors are properly credited.
+</p>
+<p>
+The idea for Blo\(g_{\mu\nu}\) is unashamedly stolen from Dr. Sunny Vagnozzi's <a href="https://www.sunnyvagnozzi.com/blog">His Dark CMBlog</a>. Sunny's <a href="https://www.sunnyvagnozzi.com/">entire website</a> is absolutely fantastic, and you should explore it before reading any more of my posts.
+</p>
+:ET
