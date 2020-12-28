@@ -10,7 +10,7 @@ If you want a pdf, you can <a href="/assets/CV.pdf" download><button type="butto
 If JavaScript is working, you should see a preview below.
 </p>
 <div id="example1"></div> 
-<script src="js/pdfobject.js"></script>
+<script src="pdfobject.js"></script>
 <script>PDFObject.embed("/assets/CV.pdf", "#example1");</script>
 <style>
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
