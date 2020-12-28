@@ -2,7 +2,7 @@
 layout: page 
 title: BarXiv 
 ---
-<h2><img src="assets/barxiv_icons/postarxiv.png" width="30"> Beamer arXiv citations aged with Matplotlib colormaps <img src="assets/barxiv_icons/prearxiv.png" width="30"></h2>
+<h2><img src="assets/barxiv/barxiv_icons/postarxiv.png" width="30"> Beamer arXiv citations aged with Matplotlib colormaps <img src="assets/barxiv/barxiv_icons/prearxiv.png" width="30"></h2>
 BarXiv is a very simple `LaTeX2e` package for the `beamer` class. It enables audience-friendly citations of papers which may or may not be on the [arXiv](https://arxiv.org). These are highlighted according to the age of the reference, according to the ubiquitous colormaps of Matplotlib. BarXiv **does not need** Python.
 <h2>Install and use</h2>
 <ol>
@@ -32,19 +32,19 @@ BarXiv is a very simple `LaTeX2e` package for the `beamer` class. It enables aud
 Here is a simple `beamer` frame to illustrate `barxiv` in use for some `cmap` choices.\
 <ul>
 <li>For <tt>hsv</tt>:</li>
-<img src="assets/sample_slides/hsv.png" width="600">
+<img src="assets/barxiv/sample_slides/hsv.png" width="600">
 <li>For <tt>spring</tt>:</li>
-<img src="assets/sample_slides/spring.png" width="600">
+<img src="assets/barxiv/sample_slides/spring.png" width="600">
 <li>For <tt>summer</tt>:</li>
-<img src="assets/sample_slides/summer.png" width="600">
+<img src="assets/barxiv/sample_slides/summer.png" width="600">
 <li>For <tt>winter</tt>:</li>
-<img src="assets/sample_slides/winter.png" width="600">
+<img src="assets/barxiv/sample_slides/winter.png" width="600">
 <li>For <tt>binary</tt>:</li>
-<img src="assets/sample_slides/binary.png" width="600">
+<img src="assets/barxiv/sample_slides/binary.png" width="600">
 <li>For <tt>inferno</tt>:</li>
-<img src="assets/sample_slides/inferno.png" width="600">
+<img src="assets/barxiv/sample_slides/inferno.png" width="600">
 <li>For <tt>Wistia</tt>:</li>
-<img src="assets/sample_slides/Wistia.png" width="600">
+<img src="assets/barxiv/sample_slides/Wistia.png" width="600">
 </ul>
 </p>
 <p>
