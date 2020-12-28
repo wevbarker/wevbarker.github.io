@@ -18,15 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Will Barker (威廉 巴克尔) | theoretical physicist and cosmologist
+title: Will E. V. Barker (威廉 巴克尔) | theoretical physicist and cosmologist
 email: wb263@cam.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   I have no social media. 
+
+show_excerpts: true 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wevbarker.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: wevbarker 
 
-author.name: Will Barker
+author: "Will E. V. Barker"
 
 # Build settings
 theme: minima
@@ -42,6 +44,23 @@ header_pages:
   - barxiv.md
   - higgs.md
   - blog.md
+
+
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    twitter: jekyllrb
+    github: jekyll
+    stackoverflow: "11111"
+    dribbble: jekyll
+    facebook: jekyll
+    flickr: jekyll
+    instagram: jekyll
+    linkedin: jekyll
+    pinterest: jekyll
+    telegram: jekyll
+    microdotblog: jekyll
+    keybase: jekyll
 
 # Exclude from processing.
 # The following items will not be processed, by default.
