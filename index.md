@@ -17,4 +17,6 @@ I grew up in Cornwall, which is the south-western tip of England. I did my under
 <p>
 This site is still very much under construction! I can only barely speak <tt>html</tt> or <tt>ruby</tt>, so I apologise for all glitches. If you want to get in touch, feel free to drop me an email. Unfortunately, I don't use social media.
 </p>
-
+<h2>
+Contact and quick links
+</h2>
