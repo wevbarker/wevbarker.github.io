@@ -45,22 +45,8 @@ header_pages:
   - higgs.md
   - blog.md
 
+google_analytics: UA-186155265-1
 
-minima:
-  date_format: "%b %-d, %Y"
-  social_links:
-    twitter: jekyllrb
-    github: jekyll
-    stackoverflow: "11111"
-    dribbble: jekyll
-    facebook: jekyll
-    flickr: jekyll
-    instagram: jekyll
-    linkedin: jekyll
-    pinterest: jekyll
-    telegram: jekyll
-    microdotblog: jekyll
-    keybase: jekyll
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -83,5 +69,3 @@ minima:
 #   - vendor/ruby/
 #
 #
-# google analytics
-google_analytics: UA-NNNNNNNN-N
