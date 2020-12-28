@@ -1,19 +1,7 @@
----
-layout: home 
-title: Home 
-list_title: Blo\(g_{\mu\nu}\) (Blog-Mu-Nu)
----
-<head>
-<style>
-.table-no-padding td {
-    padding: 0px;
-}
-</style>
-</head>
-<h2>
+I"e<h2>
 Welcome!
 </h2>
-<img src="assets/index/photo.jpg" width=200px alt="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my father." title="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my dad." vspace="10" hspace="10" align="left" />
+<p><img src="assets/index/photo.jpg" width="200px" alt="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my father." title="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my dad." vspace="10" hspace="10" align="left" /></p>
 <p>
     I'm a theoretical cosmologist and Ph.D. candidate at the Kavli Institute for Cosmology, Cambridge (KICC), and the Cavendish Laboratory Astrophysics Group at the University of Cambridge. My research is focussed on gravitational theory and quantum gravity, and modifications to Einstein's general theory of relativity. 
 </p>
@@ -26,7 +14,7 @@ This site is still very much under construction! I can only barely speak <tt>htm
 <h2>
 Contact and quick links
 </h2>
-<table class="table-no-padding">
+<table>
 <tr>
 <td>Email</td>
 <td>wb263@cam.ac.uk</td>
@@ -38,15 +26,14 @@ Contact and quick links
 <tr>
 <td>Office</td>
 <td>+44&mdash;(0)1223&mdash;746437</td>
-<td>(not during coronavirus pandemic)</td>
-</tr>
-<tr>
-<td>GitHub</td>
-<td><a href="https://github.com/wevbarker">wevbarker</a></td>
 </tr>
 <tr>
 <td>arXiv</td>
 <td><a href="https://arxiv.org/a/barker_w_1">arxiv.org/a/barker_w_1</a></td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td>https://github.com/wevbarker</td>
 </tr>
 <tr>
 <td>Skype</td>
@@ -54,15 +41,7 @@ Contact and quick links
 </tr>
 <tr>
 <td>Website</td>
-<td><a href="https://www.wevbarker.com">wevbarker.com</a></td>
-</tr>
-<tr>
-<td style="vertical-align: top;">Address</td>
-<td>
-K34, Kavli Institute for Cosmology<br />
-Madingley Road, Cambridge<br />
-CB3 0HA, United Kingdom
-</td>
-<td style="vertical-align: top;">(not during coronavirus pandemic)</td>
+<td>https://www.wevbarker.com</td>
 </tr>
 </table>
+:ET
