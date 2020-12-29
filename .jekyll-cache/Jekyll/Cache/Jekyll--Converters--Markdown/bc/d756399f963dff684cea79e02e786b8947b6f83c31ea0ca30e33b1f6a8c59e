@@ -1,9 +1,4 @@
----
-layout: home 
-title: Home 
-list_title: Blo\(g_{\mu\nu}\) (Blog-Mu-Nu)
----
-<head>
+I"ò<head>
 <style>
 .table-no-padding td {
     padding: 0px;
@@ -13,7 +8,7 @@ list_title: Blo\(g_{\mu\nu}\) (Blog-Mu-Nu)
 <h2>
 Welcome!
 </h2>
-<img src="assets/index/photo.jpg" width=200px alt="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my father." title="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my dad." vspace="10" hspace="10" align="left" />
+<p><img src="assets/index/photo.jpg" width="200px" alt="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my father." title="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my dad." vspace="10" hspace="10" align="left" /></p>
 <p>
     I'm a theoretical cosmologist and Ph.D. candidate at the Kavli Institute for Cosmology, Cambridge (KICC), and the Cavendish Laboratory Astrophysics Group at the University of Cambridge. My research is focussed on gravitational theory and quantum gravity, including modifications to Einstein's general theory of relativity. 
 </p>
@@ -38,7 +33,7 @@ Contact and quick links
 <tr>
 <td>Office</td>
 <td>+44&mdash;(0)1223&mdash;746437</td>
-<td style="horizontal-align: left">&larr; <em>not during coronavirus pandemic</em></td>
+<td>&larr; <em>not during coronavirus pandemic</em></td>
 </tr>
 <tr>
 <td>GitHub</td>
@@ -46,7 +41,7 @@ Contact and quick links
 </tr>
 <tr>
 <td>arXiv</td>
-<td><a href="https://arxiv.org/a/barker_w_1">barker_w_1</a></td>
+<td><a href="https://arxiv.org/a/barker_w_1">arxiv.org/a/barker_w_1</a></td>
 </tr>
 <tr>
 <td>ORCiD</td>
@@ -73,6 +68,7 @@ K34, Kavli Institute for Cosmology<br />
 Madingley Road, Cambridge<br />
 CB3 0HA, United Kingdom
 </td>
-<td style="vertical-align: top; horizontal-align: left;">&larr; <em>not during coronavirus pandemic</em></td>
+<td style="vertical-align: top;">&larr; <em>not during coronavirus pandemic</em></td>
 </tr>
 </table>
+:ET

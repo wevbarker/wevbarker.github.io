@@ -1,8 +1,4 @@
----
-layout: page 
-title: Publications 
----
-<head>
+I"]<head>
 <style>
 ol {
     counter-reset: list;
@@ -27,9 +23,7 @@ ol {
 </style>
 </head>
 
-
 <h2>In preparation</h2>
-
 
 <ol>
   <li>
@@ -50,8 +44,8 @@ ol {
     <b>W. E. V. Barker</b>, A. N. Lasenby, M. P. Hobson and W. J. Handley,
     <em>Nonlinear Hamiltonian analysis of the new quadratic torsion theories Part I. Cases with curvature-free constraints</em>,
     prepared for Physical Review D,
-    <a href="https://doi.org/10.5281/zenodo.4361667"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4361667.svg" alt="DOI"></a>,
-    <a href="/assets/papers/paper-4.pdf" download><button type="button">download preprint</button></a> 
+    <a href="https://doi.org/10.5281/zenodo.4361667"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4361667.svg" alt="DOI" /></a>,
+    <a href="/assets/papers/paper-4.pdf" download=""><button type="button">download preprint</button></a> 
   </li>
   <li>
     <b>W. E. V. Barker</b>, A. N. Lasenby, M. P. Hobson and W. J. Handley,
@@ -59,7 +53,7 @@ ol {
     <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.084002">Physical Review D, <b>102</b>, 084002 (2020)</a>,
     <a href="https://arxiv.org/abs/2006.03581">arXiv:2006.03581 [gr-qc]</a>,
     <a href="https://www.sunnyvagnozzi.com/blog/top-arxiv-week-24-2020">Media attention: His Dark CMBlog</a>
-    <a href="/assets/papers/paper-3.pdf" download><button type="button">download preprint</button></a> 
+    <a href="/assets/papers/paper-3.pdf" download=""><button type="button">download preprint</button></a> 
   </li>
   <li>
     <b>W. E. V. Barker</b>, A. N. Lasenby, M. P. Hobson and W. J. Handley,
@@ -67,14 +61,14 @@ ol {
     <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.102.024048">Physical Review D, <b>102</b>, 024048 (2020)</a>,
     <a href="https://arxiv.org/abs/2003.02690">arXiv:2003.02690 [gr-qc]</a>,
     <a href="https://www.quantamagazine.org/why-is-the-universe-expanding-so-fast-20200427/">Media attention: Quanta Magazine</a>
-    <a href="/assets/papers/paper-2.pdf" download><button type="button">download preprint</button></a> 
+    <a href="/assets/papers/paper-2.pdf" download=""><button type="button">download preprint</button></a> 
   </li>
   <li>
     <b>W. E. V. Barker</b>, A. N. Lasenby, M. P. Hobson and W. J. Handley,
     <em>Static energetics in gravity</em>,
     <a href="https://aip.scitation.org/doi/10.1063/1.5082730">Journal of Mathematical Physics, <b>60</b>, 052504 (2019)</a>,
     <a href="https://arxiv.org/abs/1811.09844">arXiv:1811.09844 [gr-qc]</a>,
-    <a href="/assets/papers/paper-1.pdf" download><button type="button">download preprint</button></a> 
+    <a href="/assets/papers/paper-1.pdf" download=""><button type="button">download preprint</button></a> 
   </li>
   <li>
     <b>W. E. V. Barker</b>, T. Ledvinka, D. Lynden-Bell and J. Bičák,
@@ -90,4 +84,4 @@ ol {
   </li>
 </ol>
 
-
+:ET
