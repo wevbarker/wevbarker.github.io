@@ -4,7 +4,7 @@ title: Résumé
 ---
 <body>
 <p>
-If you want a pdf, you can <a href="/assets/resume/CV.pdf" download><button type="button">download my résumé</button></a>
+If you want a PDF, you can <a href="/assets/resume/CV.pdf" download><button type="button">download my résumé</button></a>
 </p>
 <p>
 If I can speak <tt>JavaScript</tt>, and your browser supports inline PDFs, you should see a preview below.

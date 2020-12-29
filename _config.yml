@@ -21,12 +21,13 @@
 title: Will E. V. Barker (威廉 巴克尔) | theoretical physicist and cosmologist
 email: wb263@cam.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  things 
+  This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph].
 
 show_excerpts: true 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://wevbarker.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: wevbarker 
+rss: Blo\(g_{\mu\nu}\)
 
 author: "Will E. V. Barker"
 
@@ -39,11 +40,11 @@ header_pages:
   - index.md
   - research.md
   - resume.md
+  - proposal.md
   - publications.md
   - laser.md
   - barxiv.md
   - higgs.md
-  - blog.md
 
 google_analytics: UA-186155265-1
 
