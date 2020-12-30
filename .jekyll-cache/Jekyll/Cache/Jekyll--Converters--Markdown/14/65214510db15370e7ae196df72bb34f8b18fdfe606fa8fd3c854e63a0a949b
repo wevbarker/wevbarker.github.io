@@ -1,9 +1,4 @@
----
-layout: home 
-title: Home 
-list_title: Blo\(g_{\mu\nu}\) (Blog-Mu-Nu)
----
-<head>
+I"	<head>
 <style>
 .table-no-padding td {
     padding: 0px;
@@ -13,7 +8,7 @@ list_title: Blo\(g_{\mu\nu}\) (Blog-Mu-Nu)
 <h2>
 Welcome!
 </h2>
-<img src="assets/index/photo.jpg" width=200px alt="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my father." title="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my dad." vspace="10" hspace="10" align="left" />
+<p><img src="assets/index/photo.jpg" width="200px" alt="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my father." title="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my dad." vspace="10" hspace="10" align="left" /></p>
 <p>
     I'm a theoretical cosmologist and Ph.D. candidate at the Kavli Institute for Cosmology, Cambridge (KICC), and the Cavendish Laboratory Astrophysics Group at the University of Cambridge. My research is focussed on gravitational theory and quantum gravity, including modifications to Einstein's general theory of relativity. 
 </p>
@@ -24,14 +19,13 @@ I grew up in Cornwall, which is the south-western tip of England. I did my under
 This site is still very much under construction! I can only barely speak <tt>html</tt> or <tt>ruby</tt>, so I apologise for all glitches. If you want to get in touch, feel free to drop me an email. Unfortunately, I don't use social media.
 </p>
 
-{{ site.name }}
 <h2>
 Contact and quick links
 </h2>
 <table class="table-no-padding">
 <tr>
 <td>Email</td>
-<td><a href="mailto:wb263@cam.ac.uk">wb263@cam.ac.uk</a></td>
+<td>wb263@cam.ac.uk</td>
 </tr>
 <tr>
 <td>Mobile</td>
@@ -78,3 +72,4 @@ CB3 0HA, United Kingdom
 <td style="vertical-align: top; horizontal-align: left;">&larr; <em>not during coronavirus pandemic</em></td>
 </tr>
 </table>
+:ET
