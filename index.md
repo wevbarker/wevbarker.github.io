@@ -88,3 +88,11 @@ CB3 0HA, United Kingdom
 <td style="vertical-align: top; horizontal-align: left;">&larr; <em>not during coronavirus pandemic</em></td>
 </tr>
 </table>
+
+
+
+<video width="700" height="300" preload="metadata" controls autoplay loop>
+  <source src="assets/talks/20120009.mp4#t=2.5" type="video/mp4">
+  Your browser does not support the video tag.
+</video> 
+
