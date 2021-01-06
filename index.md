@@ -57,8 +57,18 @@ Contact and quick links
 </td>
 </tr>
 <tr>
-<td>iNSPIRE HEP</td>
-<td><em>re-consolidating my profile</em></td>
+<td>iNSPIRE HEP BAI</td>
+<td>
+<a href="https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=a%20W.E.V.Barker.2">W.E.V.Barker.2</a>
+</td>
+<td style="horizontal-align: left">&larr; <em>chronically incomplete</em></td>
+</tr>
+<tr>
+<td>NASA ADS</td>
+<td>
+<a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22barker%2C%20w.%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">barker, w.</a>
+</td>
+<td style="horizontal-align: left">&larr; <em>even worse than iNSPIRE</em></td>
 </tr>
 <tr>
 <td>Skype</td>
