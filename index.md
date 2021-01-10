@@ -1,7 +1,7 @@
 ---
 layout: home 
 title: Home 
-list_title: Blo\(g_{\mu\nu}\) (Blog-Mu-Nu)
+footerlist_title: Blo\(g_{\mu\nu}\) (Blog-Mu-Nu)
 ---
 <head>
 <style>
@@ -59,7 +59,7 @@ Contact and quick links
 <tr>
 <td>iNSPIRE HEP BAI</td>
 <td>
-<a href="https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=a%20W.E.V.Barker.2">W.E.V.Barker.2</a>
+<a href="https://inspirehep.net/authors/1839147?ui-citation-summary=true&ui-exclude-self-citations=true">W.E.V.Barker.2</a>
 </td>
 <td style="horizontal-align: left">&larr; <em>chronically incomplete</em></td>
 </tr>
