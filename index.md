@@ -59,7 +59,7 @@ Contact and quick links
 <tr>
 <td>iNSPIRE HEP BAI</td>
 <td>
-<a href="https://inspirehep.net/authors/1839147?ui-citation-summary=true&ui-exclude-self-citations=true">W.E.V.Barker.2</a>
+<a href="https://inspirehep.net/authors/1839147?ui-citation-summary=true">W.E.V.Barker.2</a>
 </td>
 <td style="horizontal-align: left">&larr; <em>chronically incomplete</em></td>
 </tr>
