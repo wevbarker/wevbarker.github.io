@@ -8,6 +8,11 @@ footerlist_title: Blo\(g_{\mu\nu}\) (Blog-Mu-Nu)
 .table-no-padding td {
     padding: 0px;
 }
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
+}
 </style>
 </head>
 <h2>
