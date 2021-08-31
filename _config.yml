@@ -43,6 +43,10 @@ header_pages:
   - resume.md
   - proposal.md
   - publications.md
+  - thesis.md
+  - talks.md
+  - battcock.md
+  - teaching.md
   - laser.md
   - barxiv.md
   - higgs.md
