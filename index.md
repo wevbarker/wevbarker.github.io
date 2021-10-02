@@ -28,22 +28,22 @@ video {
 <h2>
 Welcome!
 </h2>
-<img src="assets/index/photo.jpg" width=200px alt="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my father." title="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my dad." vspace="10" hspace="10" align="left" />
+<img src="assets/index/para2.png" width=200px alt="The struggle against gravity is not futile, as this experiment in the French Alps illustrates." title="The struggle against gravity is not futile, as this experiment in the French Alps illustrates." vspace="10" hspace="10" align="left" />
 <p>
-    I'm a theoretical cosmologist at the <a href="https://www.kicc.cam.ac.uk/">Kavli Institute for Cosmology, Cambridge (KICC)</a>, and the <a href="https://www.astro.phy.cam.ac.uk/">Cavendish Laboratory Astrophysics Group</a> at the University of Cambridge. My research is focused on gravitational theory and quantum gravity, including modifications to Einstein's general theory of relativity. 
+<img src="assets/index/sphere.JPEG" width=150px alt="The armillary sphere of Antonio Santucci at the Museo Galileo in Florence." title="The armillary sphere of Antonio Santucci at the Museo Galileo in Florence." vspace="10" hspace="10" align="right" />
+    I'm a theoretical cosmologist at the <a href="https://www.kicc.cam.ac.uk/">Kavli Institute for Cosmology, Cambridge (KICC)</a>, and the <a href="https://www.astro.phy.cam.ac.uk/">Cavendish Laboratory Astrophysics Group</a> at the University of Cambridge. My research is focused on gravitational theory and quantum gravity, including alternatives to Einstein's general theory of relativity. 
+Gravity is perhaps the most enigmatic of the four forces of Nature, and our best theory of gravity seems stubbornly classical. The other three forces (strong, weak and electromagnetic) are healthy quantum theories which comprise the standard model of particle physics. The effects of gravity are mostly apparent at large scales, such as are found in cosmology: motivating study of the history and structure of the Universe. The armillary sphere of Antonio Santucci represents a 16th century understanding of this structure, which has since evolved via minor revisions to the current Lambda-cold dark matter (LCDM) concordance model. Antonio's craftwork is as beautiful as LCDM, so I've included my other photos of the sphere in other pages.
 </p>
+<img src="assets/index/photo.jpg" width=150px alt="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my father." title="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my dad." vspace="10" hspace="10" align="right" />
 <p>
-I'm currently the Rosamund Chambers Junior Research Fellow in Astrophysics at Girton College, Cambridge. I was based at Wolfson College for my Ph.D., and Queens' College for my undergraduate and master's in (physical) Natural Sciences. I grew up in Cornwall, which is the south-western tip of England.
-</p>
-<img src="assets/index/oort.jpg" width=200px alt="For mysterious reasons, the Oort building is tilted by 7&deg;. The Lorentz Institute is on the 2nd floor." title="For mysterious reasons, the Oort building is tilted by 7&deg;. The Lorentz Institute is on the 2nd floor." vspace="10" hspace="10" align="right" />
-<p>
+I'm also currently the Rosamund Chambers Junior Research Fellow in Astrophysics at Girton College, Cambridge. I was based at Wolfson College for my Ph.D., and Queens' College for my undergraduate and master's in (physical) Natural Sciences. I grew up in Cornwall, which is the south-western tip of England.
+<img src="assets/index/oort.jpg" width=200px alt="For mysterious reasons, the Oort building is tilted by 7&deg;. The Lorentz Institute is on the 2nd floor." title="For mysterious reasons, the Oort building is tilted by 7&deg;. The Lorentz Institute is on the 2nd floor." vspace="10" hspace="10" align="left" />
 At the moment I'm dividing my time between Cambridge and the <a href="https://www.lorentz.leidenuniv.nl/">Lorentz Institute</a> at Leiden University. I also work with researchers at <a href="https://ceico.cz/">CEICO</a> in Prague.
 </p>
-<img src="assets/index/door.jpg" width=200px  alt="The finest available officemates at the Kavli." title="The finest available officemates at the Kavli." vspace="10" hspace="10" align="left" />
 <p>
 The colourful image behind this text (courtesy of the ESA and Planck Collaboration) shows the polarised microwave sky, as dominated by the magnetised, dusty foreground of the milky way which lies along the equatorial plane. Behind it lies the fainter cosmic microwave background (CMB), a far more interesting signal from the early Universe and one of the very few ways we have to observationally test quantum gravity.
 </p>
-<img src="assets/index/mao.jpg" width=200px  alt="A noble physics cat." title="A noble physics cat." vspace="10" hspace="10" align="right" />
+<img src="assets/index/mao.jpg" width=150px  alt="A noble physics cat." title="A noble physics cat." vspace="10" hspace="10" align="right" />
 <p>
 This site is still very much under construction so I apologise for all glitches! If you want to get in touch, feel free to drop me an email. Unfortunately, I don't use social media.
 </p>

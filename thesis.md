@@ -2,7 +2,7 @@
 layout: page 
 title: Ph.D. thesis 
 ---
-<body class="tmp">
+<body class="sph5">
 <p>
 I submitted my thesis on 25/08/2021. If and when it is passed by the Degree Committee for the faculty of Physics and Chemistry, I'll make a full version available here and also leave it on the arXiv. Eventually, a full version should also find its way to the Cambridge University <a href="https://www.repository.cam.ac.uk/">Apollo Repository</a>.
 </p>

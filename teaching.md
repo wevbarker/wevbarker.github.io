@@ -2,7 +2,7 @@
 layout: page 
 title: Teaching 
 ---
-<body>
+<body class="sph8">
 <p>
 Under construction!
 </p>

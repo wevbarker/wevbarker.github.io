@@ -2,9 +2,9 @@
 layout: page 
 title: Proposal 
 ---
-<body>
+<body class="sph3">
 <p>
-If you want a PDF, you can <a href="/assets/proposal/research_statement.pdf" download><button type="button">download my research proposal</button></a>
+Here is my research proposal for the 2020-2021 job application season (which is now over). If you want a PDF, you can <a href="/assets/proposal/research_statement.pdf" download><button type="button">download my research proposal</button></a>
 </p>
 <p>
 If I can speak <tt>JavaScript</tt>, and your browser supports inline PDFs, you should see a preview below.

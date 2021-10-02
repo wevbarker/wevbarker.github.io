@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Gravity-laser 
+title: Gravity laser 
 ---
 <head>
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
@@ -22,6 +22,7 @@ title: Gravity-laser
   </style>
 </head>
 
+<body class="sph9">
 At the start of my Ph.D., I spent a couple of months working out the gravity of a laser pulse. While I never tried to publish this (I should have), it did entail making some fun videos in the <tt>Wolfram</tt> language.
 
 <div class="row">
@@ -71,5 +72,7 @@ The gas should be very cold, because the wake would be quickly erased by hot par
 <video id="home1" width="660" height="330" controls autoplay loop> 
     <source src="assets/laser/5.mp4" /> 
 </video>
-
+<p>
 To my knowledge, none of this has any current application. Plausibly, it could someday be used as an inefficient test of the weak Lense-Thirring effect, but even with the most powerful lasers this is not yet possible. Quel chagrin...!
+</p>
+</body>

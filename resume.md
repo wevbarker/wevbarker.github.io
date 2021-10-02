@@ -2,7 +2,7 @@
 layout: page 
 title: Résumé 
 ---
-<body>
+<body class="sph2">
 <p>
 If you want a PDF, you can <a href="/assets/resume/CV.pdf" download><button type="button">download my résumé</button></a>
 </p>

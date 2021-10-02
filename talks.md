@@ -1,8 +1,8 @@
 ---
 layout: page 
-title: Talks & seminars
+title: My talks
 ---
-<body>
+<body class="sph6">
 <h2>Perimeter Institute cosmology seminar</h2>
 <p>
 Here is a seminar I gave at PITP recently, which encodes much of my activity over the past few years.

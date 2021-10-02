@@ -2,6 +2,7 @@
 layout: page 
 title: BarXiv 
 ---
+<body class="pol">
 <h2><img src="assets/barxiv/barxiv_icons/postarxiv.png" width="30"> Beamer arXiv citations aged with Matplotlib colormaps <img src="assets/barxiv/barxiv_icons/prearxiv.png" width="30"></h2>
 BarXiv is a very simple `LaTeX2e` package for the `beamer` class. It enables audience-friendly citations of papers which may or may not be on the [arXiv](https://arxiv.org). These are highlighted according to the age of the reference, according to the ubiquitous colormaps of Matplotlib. BarXiv **does not need** Python.
 <h2>Install and use</h2>
@@ -81,3 +82,4 @@ The body is much as you would expect:
 \end{document}
 </code>
 </pre>
+</body>
