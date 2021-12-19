@@ -23,6 +23,19 @@ video {
   width: 100%    !important;
   height: auto   !important;
 }
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 31.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
 </style>
 </head>
 <h2>
@@ -31,10 +44,10 @@ Welcome!
 <img src="assets/index/para2.png" width=200px alt="The struggle against gravity is not futile, as this experiment in the French Alps illustrates." title="The struggle against gravity is not futile, as this experiment in the French Alps illustrates." vspace="10" hspace="10" align="left" />
 <p>
 <img src="assets/index/sphere.JPEG" width=150px alt="The armillary sphere of Antonio Santucci at the Museo Galileo in Florence." title="The armillary sphere of Antonio Santucci at the Museo Galileo in Florence." vspace="10" hspace="10" align="right" />
-    I'm a theoretical cosmologist at the <a href="https://www.kicc.cam.ac.uk/">Kavli Institute for Cosmology, Cambridge (KICC)</a>, and the <a href="https://www.astro.phy.cam.ac.uk/">Cavendish Laboratory Astrophysics Group</a> at the University of Cambridge. My research is focused on gravitational theory and quantum gravity, including alternatives to Einstein's general theory of relativity. 
+    I'm a theoretical physicist at the <a href="https://www.kicc.cam.ac.uk/">Kavli Institute for Cosmology, Cambridge (KICC)</a>, and the <a href="https://www.astro.phy.cam.ac.uk/">Cavendish Laboratory Astrophysics Group</a> at the University of Cambridge. My research is focused on gravitational theory and quantum gravity, including alternatives to Einstein's general theory of relativity. 
 Gravity is perhaps the most enigmatic of the four forces of Nature, and our best theory of gravity seems stubbornly classical. The other three forces (strong, weak and electromagnetic) are healthy quantum theories which comprise the standard model of particle physics. The effects of gravity are mostly apparent at large scales, such as are found in cosmology: motivating study of the history and structure of the Universe. The armillary sphere of Antonio Santucci represents a 16th century understanding of this structure, which has since evolved via minor revisions to the current Lambda-cold dark matter (LCDM) concordance model. Antonio's craftwork is as beautiful as LCDM, so I've included my other photos of the sphere in other pages.
 </p>
-<img src="assets/index/photo.jpg" width=150px alt="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my father." title="Cornwall is 69.1% coast, 25.9% tin mines and 4.9% habitable land. Photo courtesy of my dad." vspace="10" hspace="10" align="right" />
+<img src="assets/index/profile_photo.png" width=150px alt="Hortus Botanicus, Leiden" title="Hortus Botanicus, Leiden" vspace="10" hspace="10" align="right" style="transform:rotate(180deg);" />
 <p>
 I'm also currently the Rosamund Chambers Junior Research Fellow in Astrophysics at Girton College, Cambridge. I was based at Wolfson College for my Ph.D., and Queens' College for my undergraduate and master's in (physical) Natural Sciences. I grew up in Cornwall, which is the south-western tip of England.
 <img src="assets/index/oort.jpg" width=200px alt="For mysterious reasons, the Oort building is tilted by 7&deg;. The Lorentz Institute is on the 2nd floor." title="For mysterious reasons, the Oort building is tilted by 7&deg;. The Lorentz Institute is on the 2nd floor." vspace="10" hspace="10" align="left" />
@@ -128,4 +141,32 @@ NL-2333 CA, The Netherlands
 <td style="vertical-align: center; horizontal-align: left;">&larr; <em>not during pandemic</em></td>
 </tr>
 </table>
+<h2>
+Gravity on a lattice
+</h2>
+Here is a problem. Can we use thermal field theory techniques to find static gravitational fields in the nonlinear regime? Or, can we use lattice QCD codes to study GR? Below is a simple Monte-Carlo code for the Euclidean path integral of the scalar potential, in the presence of two static point masses. The code is broken, so the potential runs away to infinity... but could it ever work? If you're interested in this problem, or have experience in functional methods, or know that this has been tried before, please drop me an email!
+<div class="row">
+  <div class="column">
+    <img src="/assets/index/t1-1.png" alt="100 Metropolis sweeps" title="100 Metropolis sweeps" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/index/t2-1.png" alt="1500 Metropolis sweeps" title="1500 Metropolis sweeps" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/index/t3-1.png" alt="60000 Metropolis sweeps" title="60000 Metropolis sweeps" style="width:100%">
+  </div>
+</div> 
 
+<h2>
+Interview puzzle
+</h2>
+Here is a math interview question that was kept in reserve for the 2021 Girton admissions. Can you solve it? Bonus points if you know how it applies to theoretical physics :)
+<p>
+Here is a hint: how does the superficial divergence of a \(L=\partial_\mu\phi\partial^\mu\phi/2-\lambda\phi^n/n!\) diagram go with loops, legs and vertices?
+</p>
+<div id="example1"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/index/teaser.pdf", "#example1");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>

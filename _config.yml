@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Will E. V. Barker (威廉 巴克尔) | theoretical physicist and cosmologist
+title: Dr. Will E. V. Barker (威廉 巴克尔) | theoretical physics and cosmology
 email: wb263@cam.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph].
@@ -29,7 +29,7 @@ url: "http://wevbarker.com" # the base hostname & protocol for your site, e.g. h
 github_username: wevbarker 
 rss: Blo\(g_{\mu\nu}\)
 
-author: "Will E. V. Barker"
+author: "Dr. Will E. V. Barker"
 
 # Build settings
 theme: minima
