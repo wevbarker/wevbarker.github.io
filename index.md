@@ -128,4 +128,17 @@ NL-2333 CA, The Netherlands
 <td style="vertical-align: center; horizontal-align: left;">&larr; <em>not during pandemic</em></td>
 </tr>
 </table>
+<h2>
+Interview puzzle
+</h2>
+Here is a math interview question that was kept in reserve for the 2021 Girton admissions. Can you solve it? Bonus points if you know how it applies to theoretical physics :)
+<p>
+Here is a hint: how does the superficial divergence of a \(L=\partial_\mu\phi\partial^\mu\phi/2-\lambda\phi^n/n!\) diagram go with loops, legs and vertices?
+</p>
+<div id="example1"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/index/teaser.pdf", "#example1");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
 
