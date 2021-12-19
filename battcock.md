@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Battcock doughnut seminar
+title: Doughnut seminars
 ---
 <body class="sph7">
 <p>

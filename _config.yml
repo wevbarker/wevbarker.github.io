@@ -45,11 +45,11 @@ header_pages:
   - publications.md
   - thesis.md
   - talks.md
-  - battcock.md
   - teaching.md
   - laser.md
   - barxiv.md
   - higgs.md
+  - battcock.md
   - blog.md
 
 google_analytics: UA-186155265-1

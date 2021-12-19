@@ -63,6 +63,12 @@ This site is still very much under construction so I apologise for all glitches!
 
 {{ site.name }}
 <h2>
+Snap projects and reasons to reach out
+</h2>
+<p>
+Do you want to help organise an online modified gravity workshop in the summer of 2022? Do you know how to interpret the gauge status of Hamiltonian constraint multipliers which are themselves constrained only by PDEs? Do you know how to do QFT around a vector VEV background? Do you want to test a simple, novel and well-motivated \(w(z)\) dark energy model against BAO and BBN constraints? These are some things I'm working on this season, send an email!
+</p>
+<h2>
 Contact and quick links
 </h2>
 <table class="table-no-padding">
@@ -142,7 +148,7 @@ NL-2333 CA, The Netherlands
 </tr>
 </table>
 <h2>
-Gravity on a lattice
+Gravity on a lattice?
 </h2>
 Here is a problem. Can we use thermal field theory techniques to find static gravitational fields in the nonlinear regime? Or, can we use lattice QCD codes to study GR? Below is a simple Monte-Carlo code for the Euclidean path integral of the scalar potential, in the presence of two static point masses. The code is broken, so the potential runs away to infinity... but could it ever work? If you're interested in this problem, or have experience in functional methods, or know that this has been tried before, please drop me an email!
 <div class="row">
