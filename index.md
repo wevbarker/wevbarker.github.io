@@ -23,6 +23,19 @@ video {
   width: 100%    !important;
   height: auto   !important;
 }
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 31.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
 </style>
 </head>
 <h2>
@@ -140,6 +153,17 @@ Gravity on a lattice?
 <p>
 Here is a problem. Can we use thermal field theory techniques to find static gravitational fields in the nonlinear regime? Or, can we use lattice QCD codes to study GR? Below is a simple Monte-Carlo code for the Euclidean path integral of the scalar potential, in the presence of two static point masses. The code is broken, so the potential runs away to infinity... but could it ever work? If you're interested in this problem, or have experience in functional methods, or know that this has been tried before, please drop me an email!
 </p>
+<div class="row">
+  <div class="column">
+    <img src="/assets/index/t1-1.png" alt="100 Metropolis sweeps" title="100 Metropolis sweeps" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/index/t2-1.png" alt="1500 Metropolis sweeps" title="1500 Metropolis sweeps" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/index/t3-1.png" alt="60000 Metropolis sweeps" title="60000 Metropolis sweeps" style="width:100%">
+  </div>
+</div> 
 <h2>
 Interview puzzle
 </h2>
