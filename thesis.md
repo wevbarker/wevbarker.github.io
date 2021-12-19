@@ -18,4 +18,20 @@ If I can speak <tt>JavaScript</tt>, and your browser supports inline PDFs, you s
 <style>
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
+<h2>
+MSci research project
+</h2>
+<p>
+In Part III of the NST, there is a baby research project.
+If you want a PDF, you can <a href="/assets/papers/masters.pdf" download><button type="button">download my MSci project</button></a>
+</p>
+<p>
+If I can speak <tt>JavaScript</tt>, and your browser supports inline PDFs, you should see a preview below.
+</p>
+<div id="example1"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/papers/masters.pdf", "#example1");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
 </body>
