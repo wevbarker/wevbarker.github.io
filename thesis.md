@@ -19,7 +19,7 @@ If I can speak <tt>JavaScript</tt>, and your browser supports inline PDFs, you s
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
 <h2>
-MSci research project
+M.Sci. research project
 </h2>
 <p>
 In Part III of the NST, there is a baby research project, which I did under Prof. Emilio Artacho at the Cavendish Theory of Condensed Matter Group. I'm afraid I only have a scanned copy of mine due to bit rot.
