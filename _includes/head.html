@@ -42,10 +42,12 @@
   background-image: url('{{ site.baseurl }}/assets/backgrounds/sph2.JPEG');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  @media screen and (max-width: 800px) {
-	  background-size: 100% 1%; 
-  }
   background-attachment: fixed;
+}
+@media screen and (max-width: 800px) {
+  body.sph2 {
+  background-size: 5% 5%;
+	}
 }
   body.sph3 {
   background-image: url('{{ site.baseurl }}/assets/backgrounds/sph3.JPEG');
