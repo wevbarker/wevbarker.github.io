@@ -1,0 +1,3 @@
+[submodule "assets/supervisions"]
+	path = assets/supervisions
+	url = git@github.com:wevbarker/supervisions.git
