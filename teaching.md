@@ -4,7 +4,7 @@ title: Teaching
 ---
 <body class="sph8">
 <p>
-Under construction!
+Under construction! Now...
 </p>
 <div id="example1"></div> 
 <script src="pdfobject.js"></script>
