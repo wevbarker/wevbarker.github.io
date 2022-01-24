@@ -1,0 +1,3 @@
+[submodule "teaching"]
+	path = teaching
+	url = https://github.com/wevbarker/teaching.git
