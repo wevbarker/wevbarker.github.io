@@ -18,5 +18,5 @@ Under construction! Now...
 <h2>
 Relativistic Astrophysics and Cosmology
 </h2>
-<embed src="/teaching/group-1.svgz" width="200px" height="200px" type="image/svg+xml" /> 
+<embed src="/teaching/group-1.svgz" width="200px" height="100%" type="image/svg+xml" /> 
 </body>
