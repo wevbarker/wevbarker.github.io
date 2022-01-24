@@ -24,7 +24,4 @@ Relativistic Astrophysics and Cosmology
 <style>
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
-now direct embed...
-<embed src="/teaching/group-1.pdf" width="100" height="100%" 
- type="application/pdf">
 </body>
