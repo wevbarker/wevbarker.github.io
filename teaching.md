@@ -20,7 +20,7 @@ Relativistic Astrophysics and Cosmology
 </h2>
 <div id="example2"></div> 
 <script src="pdfobject.js"></script>
-<script>PDFObject.embed("/teaching/group-2.pdf", "#example1");</script>
+<script>PDFObject.embed("/teaching/group-2.pdf", "#example2");</script>
 <style>
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
