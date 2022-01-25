@@ -22,7 +22,7 @@ Blackboard 2
 </h3>
 <div id="RAC_group-2"></div> 
 <script src="pdfobject.js"></script>
-<script>PDFObject.embed("/teaching/RAC/group-1.pdf", "#RAC_group-1");</script>
+<script>PDFObject.embed("/teaching/RAC/group-2.pdf", "#RAC_group-2");</script>
 <style>
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
@@ -40,9 +40,9 @@ Blackboard 3
 <h3>
 Blackboard 4
 </h3>
-<div id="RAC_q_3_2019"></div> 
+<div id="RAC_optical_depth"></div> 
 <script src="pdfobject.js"></script>
-<script>PDFObject.embed("/teaching/RAC/q_3_2019.pdf", "#RAC_q_3_2019");</script>
+<script>PDFObject.embed("/teaching/RAC/optical_depth.pdf", "#RAC_optical_depth");</script>
 <style>
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
