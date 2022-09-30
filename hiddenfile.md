@@ -21,11 +21,8 @@ If I can speak <tt>JavaScript</tt>, and your browser supports inline PDFs, you s
 <style>
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
-<h2>
-Another, more recent preprint in our series, for which I am not the corresponding author. An analogous situation applies, this time in relation to the work of G. Ludwig.
-</h2>
 <p>
-Another paper
+Another, more recent preprint in our series, for which I am not the corresponding author. An analogous situation applies, this time in relation to the work of G. Ludwig.
 If you want a PDF, you can <a href="/assets/papers/project-ludwig.pdf" download><button type="button">download the manuscript</button></a>
 </p>
 <p>
