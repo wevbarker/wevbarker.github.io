@@ -52,6 +52,9 @@ header_pages:
   - higgs.md
   - blog.md
 
+
+#  - hiddenfile.md
+
 google_analytics: UA-186155265-1
 
 
