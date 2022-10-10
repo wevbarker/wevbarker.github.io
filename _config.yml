@@ -44,8 +44,6 @@ header_pages:
   - proposal.md
   - publications.md
   - thesis.md
-  - mastersprojects.md
-  - phdprojects.md
   - talks.md
   - battcock.md
   - teaching.md
@@ -53,6 +51,8 @@ header_pages:
   - barxiv.md
   - higgs.md
   - blog.md
+  - mastersprojects.md
+  - phdprojects.md
 
 
 #  - hiddenfile.md
