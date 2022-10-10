@@ -90,7 +90,7 @@ Contact and quick links
 </tr>
 <tr>
 <td>Office</td>
-<td>+44&mdash;(0)1223&mdash;746437</td>
+<td>+44&mdash;(0)1223&mdash;337527</td>
 <td style="horizontal-align: left">&larr; <em>not during pandemic</em></td>
 </tr>
 <tr>
@@ -132,7 +132,7 @@ Contact and quick links
 <tr>
 <td rowspan="3" style="vertical-align: center;">Address</td>
 <td>
-K34, Kavli Institute for Cosmology<br />
+K18, Kavli Institute for Cosmology<br />
 Madingley Road, Cambridge<br />
 CB3 0HA, United Kingdom
 </td>
