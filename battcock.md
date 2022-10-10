@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Battcock doughnut seminar
+title: Hills Seminars 
 ---
 <body class="sph7">
 <p>
