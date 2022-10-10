@@ -4,10 +4,10 @@ title: Master's students
 ---
 <body class="sph5">
 <h2>
-Research group meetings for new members, and members who joined as summer students in recent months, will be held in slots from 09:00-14:30 on Fridays. These will be in-person by default, but a Zoom room will be open during that period. Slots to be arranged in coming days.
+Group meetings
 </h2>
 <p>
-New members of the group will be encouraged
+Research group meetings for new members, and members who joined as summer students in recent months will be held in slots from 09:00-14:30 on Fridays. These will be in-person by default, but a Zoom room will be open during that period. Slots to be arranged in coming days.
 </p>
 <h2>
 M.Ast. students (applications)
