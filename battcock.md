@@ -11,7 +11,7 @@ The <a href="https://www.astro.phy.cam.ac.uk/">Cavendish Astrophysics Group</a> 
 Beginning in the fall of 2022, these talks (which were previously known as "Battcock coffee/doughnut seminars") have returned as the "Hills Coffee Talks" in honour of our late colleague <a href="https://en.wikipedia.org/wiki/Richard_Edwin_Hills">Richard Hills</a>.
 </p>
 <p>
-Below you can find our schedule. We are in the process of establishing a sign-up web-page within our intranet.
+Below you can find our schedule. We are in the process of establishing a sign-up web-page within our intranet. For now, please email me.
 </p>
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLrw6hp-qA9nrMdfSM7z7VDZL17KhrPlEdUp8Bfn8puVqk5xWeYhRWXNP-PhNz0Cf-vSXY5YHQ65JW/pubhtml?widget=true&amp;headers=false" width="700" height="900"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLrw6hp-qA9nrMdfSM7z7VDZL17KhrPlEdUp8Bfn8puVqk5xWeYhRWXNP-PhNz0Cf-vSXY5YHQ65JW/pubhtml?widget=true&amp;headers=false" width="700" height="1500"></iframe>
 </body>
