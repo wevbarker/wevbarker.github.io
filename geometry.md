@@ -7,6 +7,6 @@ title: Geometric algebra
 Geometric algebra
 </h2>
 <p>
-Check out the <a href="https://geometry.mrao.cam.ac.uk/">Geometry website</a>.
+Check out the <a href="http://geometry.mrao.cam.ac.uk/">Geometry website</a>.
 </p>
 </body>
