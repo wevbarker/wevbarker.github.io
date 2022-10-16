@@ -45,15 +45,15 @@ header_pages:
   - publications.md
   - thesis.md
   - talks.md
-  - laser.md
   - barxiv.md
   - higgs.md
-  - blog.md
   - battcock.md
   - teaching.md
   - summerprojects.md
   - mastersprojects.md
   - phdprojects.md
+  - blog.md
+  - laser.md
 
 
 #  - hiddenfile.md
