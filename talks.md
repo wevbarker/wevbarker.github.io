@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: My talks
+title: Talks
 ---
 <body class="sph6">
 <h2>Perimeter Institute cosmology seminar</h2>
