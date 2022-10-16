@@ -28,7 +28,7 @@ Initial allocations were made on Friday 14th and Sunday 16th October. To see a l
 One new project was added, to be co-supervised by <a href="https://www.fzu.cz/en/people/amel-durakovic-phd">Dr. Amel Durakovic</a>. At the time of writing, this project and the nested-sampling project remain unallocated.
 </p>
 <p>
-To apply to a project, please <a href="wb263@cam.ac.uk">email</a> me a copy of your CV, with some indication of your undergraduate exam record, and book a slot to discuss from the appointments below (you don't need to be "invited" to meet, just turn up!):
+To apply to a project, please <a href="mailto:wb263@cam.ac.uk">email</a> me a copy of your CV, with some indication of your undergraduate exam record, and book a slot to discuss from the appointments below (you don't need to be "invited" to meet, just turn up!):
 </p>
 <!-- Google Calendar Appointment Scheduling begin -->
 <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1obNPpHtbCcAf54KFNqb2GrAent8NdPDVkIlsz90WBvds-_D3W0_XtBCCDQDZ7Hj_-aYp-5UjF?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
