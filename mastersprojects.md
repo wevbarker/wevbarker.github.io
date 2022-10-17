@@ -25,7 +25,7 @@ M.Sci. and MASt students (applications)
 Initial allocations were made on Friday 14th and Sunday 16th October. To see a list of abstracts on offer, go to the <a href="https://www-teach.phy.cam.ac.uk/students/courses/projects/100">Teaching Information System</a>.
 </p>
 <p>
-One new project was added, to be co-supervised by <a href="https://www.fzu.cz/en/people/amel-durakovic-phd">Dr. Amel Durakovic</a>. At the time of writing, this project and the nested-sampling project remain unallocated.
+One new project was added, to be co-supervised by <a href="https://www.fzu.cz/en/people/amel-durakovic-phd">Dr. Amel Durakovic</a>. At the time of writing, this project remains unallocated.
 </p>
 <p>
 To apply to a project, please <a href="mailto:wb263@cam.ac.uk">email</a> me a copy of your CV, with some indication of your undergraduate exam record, and book a slot to discuss from the appointments below (you don't need to be "invited" to meet, just turn up!):
