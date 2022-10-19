@@ -13,7 +13,7 @@ Research group meetings for (confirmed) new members, and members who joined as s
 <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2rlftiTVc1FW6DX2GVlOX6juU4pkSp6oYZNp8W3XTBYqd069Wd8thI1uqId_Wufc5qAHf2JOrf?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
 <!-- end Google Calendar Appointment Scheduling -->
 <h2>
-M.Ast. students (applications)
+M.Ast. students (applications CLOSED)
 </h2>
 <p>
 The projects which were advertised can be found in the <a href="https://www.astro.phy.cam.ac.uk/">IoA project booklet</a>.
@@ -22,7 +22,7 @@ The projects which were advertised can be found in the <a href="https://www.astr
 The IoA has provided the results of their student allocation algorithm. All projects are now allocated.
 </p>
 <h2>
-M.Sci. and MASt students (applications)
+M.Sci. and MASt students (applications CLOSED)
 </h2>
 <p>
 To see a list of abstracts on offer, go to the <a href="https://www-teach.phy.cam.ac.uk/students/courses/projects/100">Teaching Information System</a>.
