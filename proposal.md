@@ -1,0 +1,18 @@
+---
+layout: page 
+title: Proposal 
+---
+<body class="sph3">
+<p>
+Here is my research proposal for the 2020-2021 job application season (which is now over). If you want a PDF, you can <a href="/assets/proposal/research_statement.pdf" download><button type="button">download my research proposal</button></a>
+</p>
+<p>
+If I can speak <tt>JavaScript</tt>, and your browser supports inline PDFs, you should see a preview below.
+</p>
+<div id="example1"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/proposal/research_statement.pdf", "#example1");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
+</body>
