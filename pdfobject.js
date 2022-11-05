@@ -263,7 +263,7 @@
         let page = opt.page || false;
         let pdfOpenParams = opt.pdfOpenParams || {};
         let fallbackLink = opt.fallbackLink || true;
-        let width = opt.width || "100%";
+        let width = "100%";
         let height = opt.height || "100%";
         let assumptionMode = (typeof opt.assumptionMode === "boolean") ? opt.assumptionMode : true;
         let forcePDFJS = (typeof opt.forcePDFJS === "boolean") ? opt.forcePDFJS : false;

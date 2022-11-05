@@ -23,6 +23,7 @@
 <script id="MathJax-script" async
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
+
 <style>
   body {
   background-image: url('/assets/backgrounds/tmp0.png');
@@ -198,6 +199,29 @@
     padding-top: 30px;
   }
 }
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 60.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: relative;
+  margin: 0;
+  marginheight: 0;
+  marginwidth: 0;
+  padding: 0;
+  border: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 150%;
+}
 </style>
 </head>
 <body>
@@ -241,7 +265,7 @@ There is some computational infrastructure that you will want to establish, for 
 </h4>
 <ol>
 <li>I would <b>strongly advise</b> you to write your \(\LaTeX\) report, and your notes, using the <a href="https://journals.aps.org/revtex"><tt>REVTeX 4.2e</tt></a> class. What is it? In their own words: "<i><tt>REVTeX 4.2</tt> is a set of macro packages designed to be used with <tt>LaTeX2e</tt> and is well-suited for preparing manuscripts for submission to the journals of the American Physical Society (APS) and American Institute of Physics (AIP)</i>". Generally speaking, APS journals are the superior category of journals, though there are some other good ones associated with other continents. Try to keep to double-column format wherever you can.</li>
-<li>If you wish to compile locally, I would recommend using <a href="https://www.tug.org/texlive/"><tt>TeX Live</tt></a> and <a href="https://ctan.org/pkg/latexmk?lang=en"><tt>latexmk</tt></a> from within terminal. If you prefer a browser, use <a href="https://www.overleaf.com/">Overleaf</a>, which is (sadly) becoming more and more popular.</li>
+<li>If you wish to compile locally, I would recommend using <a href="https://www.tug.org/texlive/"><tt>TeX Live</tt></a> and <a href="https://ctan.org/pkg/latexmk?lang=en"><tt>latexmk</tt></a> from within terminal. If you prefer a browser, use <a href="https://www.overleaf.com/">Overleaf</a>, which is (sadly) becoming more and more popular. As students, you may be able to <a href="https://www.overleaf.com/edu/cambridge">get Overleaf Professional features</a> by linking with your CRSID.</li>
 </ol>
 <h4>
 <tt>Git</tt>
@@ -272,12 +296,18 @@ There is some computational infrastructure that you will want to establish, for 
 <h3>
 Nested Sampling (NS)
 </h3>
+<ol>
+<li>Nested Sampling is a numerical integration algorithm whose development has been driven in large part by our group here in Cambridge. Whilst it is a general numerical technique it has become synonymous with calculation of Bayesian <i>evidences</i>. An excellent introduction into what evidences are and why they are interesting can be found in the incomparable textbook on inference by David Mackay <a href="http://www.inference.org.uk/mackay/itila/">inference.org.uk</a>. Two specific chapters to read are 28 - the "why" behind model comparison, and 29 - the "how" numerical evaluation of Bayesian inference takes place. This book predates Nested Sampling, but it is hard to look past Mackay when it comes to introducing the lineage of the technique.</li>
+<li>The canonical reference for NS is still the original paper by John Skilling available at <a href="https://projecteuclid.org/journals/bayesian-analysis/volume-1/issue-4/Nested-sampling-for-general-Bayesian-computation/10.1214/06-BA127.full">projecteuclid.org</a>. Whilst this remains a source of inspiration for the NS developer, a more modern community review article has been compiled recently that is perhaps a better starting point <a href="https://arxiv.org/abs/2205.15570">arXiv:2205.15570</a>. This review does a good job of establishing the provenance of the technique in fundamental physics, the pointers towards NS as a partition function calculator is perhaps of most interest to readers of this page.<img src="assets/mastersprojects/himmelblau.gif" width="300px" alt="Nested sampling the himmelblau function" title="Nested sampling the himmelblau function" vspace="10" hspace="10" align="right" /></li>
+<li> Our group has contributed heavily to the technical landscape of NS. MultiNest <a href="https://arxiv.org/abs/0809.3437">arXiv:0809.3437</a> is a pillar of the NS community, often synonymous with the technique itself -- sampling from contracting ellipsoids is pleasingly intuitively geometric -- and for many years was the most complete and popular implementation of NS. PolyChord is the groups current focus in terms of development, being a "next generation" NS algorithm, specifically aiming to push NS to higher dimensional applications than previously considered. The repository of PolyChord <a href="https://github.com/PolyChord/PolyChordLite">git:PolyChordLite</a> is a good starting point with example code to get a hands on sense. NS is nothing without an analysis built on top of it, and the python package anesthetic <a href="https://github.com/williamjameshandley/anesthetic">git:anesthetic</a> is what we use to drive a lot of our work, again the code repository contains some useful starting worked examples.</li>
+</ol>
 <h3>
 Modified Newtonian Dynamics (MoND)
 </h3>
 <ol>
 <li>Introduction to the specific new relativistic MOND (RMOND) addressed by this project <a href="https://arxiv.org/abs/2007.00082">arXiv:2007.00082</a>.</li>
 <li>Quite an old study of the spherically-symmetric field equations of a Tensor-Vector-Scalar (TeVeS) theory <a href="https://arxiv.org/abs/gr-qc/0502122">arXiv:0502122</a>.</li>
+<li>McVittie by Kaloper (black holes embedded in FRW spacetimes) <a href="https://arxiv.org/abs/1003.4777">arXiv:1003.4777</a>.</li>
 </ol>
 <h3>
 Perturbative quantum gravity
@@ -292,6 +322,7 @@ Perturbative quantum gravity
 <li>Speaking of our conventions, we mostly adhere to the setup in <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/Blagojevic_M.-Gravitation_and_gauge_symmetries(2002).pdf">Blagojevic's excellent book</a>. For the most part, you won't need anything from beyond the <b>first three chapters</b>. The critical level of understanding, so as to be able to connect with the QFT literature, is as follows. You should be able to expand some Lagrangian \(\mathcal{L}=b\mathcal{L}(A^{ij}_{\ \ \ \mu},h^i_{\ \mu})\), constructed from the Riemann-Cartan and torsion tensors and various other ingredients (such as derivatives), to quadratic order around the vacuum. You should also be satisfied that the whole is invariant under translational and Lorentz-rotational gauge transformations.</li>
 <li> A very useful resource which will combine much of the above literature is <a href="https://www.repository.cam.ac.uk/handle/1810/314917?show=full">Yun-Cherng's Ph.D. thesis</a>. The PSALTer code uses very different methods to those described in this implementation (which is a complicated search over root systems), but the background physics will be very useful.</li>
 <li> The PSALTer code itself, when a student-friendly version is finished later this term, will be available for download here. For the moment, you can <a href="/assets/mastersprojects/propagator-evaluated.nb" download=""><button type="button">download a Mathematica notebook</button></a> in which I've performed the particle spectrum analysis.</li>
+<li>Not that it has to do with particle spectra, but someone was interested in accelerated expansion. For those of us that think it has something to do with a cosmological constant, and who are wondering why the value of such a constant is so small, check out the review by Jerome Martin at <a href="https://arxiv.org/abs/1205.3365">arXiv:1205.3365</a>.</li>
 </ol>
 <h3>
 Non-perturbative quantum gravity
@@ -299,7 +330,7 @@ Non-perturbative quantum gravity
 <ol>
 <li><a href="https://hef.ru.nl/~tbudd/">Tim Budd's</a> <i>excellent</i> <a href="https://hef.ru.nl/~tbudd/mct/intro.html">online course on Monte Carlo techniques</a> should serve as an introduction to how lattice (Q)FTs are implemented on computers. Not all of the applications are to <i>quantum</i> systems, so be careful! However, there is coverage of <i>criticality</i> which is vital in lattice QFT, and even Euclidean dynamical triangulations (which are intended to be quantum), with some quick-start python implementations of the latter.</li>
 <img src="assets/mastersprojects/critical_liouville.jpeg" width="200px" alt="Remote viva voce..." title="Remote viva voce..." vspace="10" hspace="10" align="right" />
-<li>The <a href="https://hef.ru.nl/~tbudd/randgeom/">Dynamical Triangulations course</a>, also by Tim Budd, for <a href="https://perimeterinstitute.ca/">PITP</a>, gives a far more in-depth introduction to random geometries. For those working with triangulation models, I can strongly recommend watching both of the lectures. There are also some C++ and Mathematica resources from this course: be careful however, since the C++ implementation has some "black box" matter coupled to it, while the Mathematica contains some depreciated syntax. I've fixed the notebook, and if you <a href="/assets/mastersprojects/propagator-evaluated.nb" download=""><button type="button">download it from here</button></a> then you should be able to make some simple embedding visualisations such as that displayed here. 
+<li>The <a href="https://hef.ru.nl/~tbudd/randgeom/">Dynamical Triangulations course</a>, also by Tim Budd, for <a href="https://perimeterinstitute.ca/">PITP</a>, gives a far more in-depth introduction to random geometries. For those working with triangulation models, I can strongly recommend watching both of the lectures. There are also some C++ and Mathematica resources from this course: be careful however, since the C++ implementation has some "black box" matter coupled to it, while the Mathematica contains some depreciated syntax. I've fixed the notebook, and if you <a href="/assets/mastersprojects/example-analysis.nb" download=""><button type="button">download it from here</button></a> then you should be able to make some simple embedding visualisations such as that displayed here. 
 </li>
 <li>A punchy "white paper" by Burda, Jurkiewicz and Krzywicki, which sets out a plan for putting fermions on random lattices, can be found at <a href="https://arxiv.org/abs/hep-lat/9907013">arXiv:9907013</a>.</li>
 <li>A paper by the same authors, with much more detail, can be found at <a href="https://arxiv.org/abs/hep-lat/9905015">arXiv:9905015</a>.</li>

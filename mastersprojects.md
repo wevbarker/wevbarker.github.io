@@ -16,7 +16,7 @@ There is some computational infrastructure that you will want to establish, for 
 </h4>
 <ol>
 <li>I would <b>strongly advise</b> you to write your \(\LaTeX\) report, and your notes, using the <a href="https://journals.aps.org/revtex"><tt>REVTeX 4.2e</tt></a> class. What is it? In their own words: "<i><tt>REVTeX 4.2</tt> is a set of macro packages designed to be used with <tt>LaTeX2e</tt> and is well-suited for preparing manuscripts for submission to the journals of the American Physical Society (APS) and American Institute of Physics (AIP)</i>". Generally speaking, APS journals are the superior category of journals, though there are some other good ones associated with other continents. Try to keep to double-column format wherever you can.</li>
-<li>If you wish to compile locally, I would recommend using <a href="https://www.tug.org/texlive/"><tt>TeX Live</tt></a> and <a href="https://ctan.org/pkg/latexmk?lang=en"><tt>latexmk</tt></a> from within terminal. If you prefer a browser, use <a href="https://www.overleaf.com/">Overleaf</a>, which is (sadly) becoming more and more popular.</li>
+<li>If you wish to compile locally, I would recommend using <a href="https://www.tug.org/texlive/"><tt>TeX Live</tt></a> and <a href="https://ctan.org/pkg/latexmk?lang=en"><tt>latexmk</tt></a> from within terminal. If you prefer a browser, use <a href="https://www.overleaf.com/">Overleaf</a>, which is (sadly) becoming more and more popular. As students, you may be able to <a href="https://www.overleaf.com/edu/cambridge">get Overleaf Professional features</a> by linking with your CRSID.</li>
 </ol>
 <h4>
 <tt>Git</tt>
@@ -58,6 +58,7 @@ Modified Newtonian Dynamics (MoND)
 <ol>
 <li>Introduction to the specific new relativistic MOND (RMOND) addressed by this project <a href="https://arxiv.org/abs/2007.00082">arXiv:2007.00082</a>.</li>
 <li>Quite an old study of the spherically-symmetric field equations of a Tensor-Vector-Scalar (TeVeS) theory <a href="https://arxiv.org/abs/gr-qc/0502122">arXiv:0502122</a>.</li>
+<li>McVittie by Kaloper (black holes embedded in FRW spacetimes) <a href="https://arxiv.org/abs/1003.4777">arXiv:1003.4777</a>.</li>
 </ol>
 <h3>
 Perturbative quantum gravity
@@ -72,6 +73,7 @@ Perturbative quantum gravity
 <li>Speaking of our conventions, we mostly adhere to the setup in <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/Blagojevic_M.-Gravitation_and_gauge_symmetries(2002).pdf">Blagojevic's excellent book</a>. For the most part, you won't need anything from beyond the <b>first three chapters</b>. The critical level of understanding, so as to be able to connect with the QFT literature, is as follows. You should be able to expand some Lagrangian \(\mathcal{L}=b\mathcal{L}(A^{ij}_{\ \ \ \mu},h^i_{\ \mu})\), constructed from the Riemann-Cartan and torsion tensors and various other ingredients (such as derivatives), to quadratic order around the vacuum. You should also be satisfied that the whole is invariant under translational and Lorentz-rotational gauge transformations.</li>
 <li> A very useful resource which will combine much of the above literature is <a href="https://www.repository.cam.ac.uk/handle/1810/314917?show=full">Yun-Cherng's Ph.D. thesis</a>. The PSALTer code uses very different methods to those described in this implementation (which is a complicated search over root systems), but the background physics will be very useful.</li>
 <li> The PSALTer code itself, when a student-friendly version is finished later this term, will be available for download here. For the moment, you can <a href="/assets/mastersprojects/propagator-evaluated.nb" download><button type="button">download a Mathematica notebook</button></a> in which I've performed the particle spectrum analysis.</li>
+<li>Not that it has to do with particle spectra, but someone was interested in accelerated expansion. For those of us that think it has something to do with a cosmological constant, and who are wondering why the value of such a constant is so small, check out the review by Jerome Martin at <a href="https://arxiv.org/abs/1205.3365">arXiv:1205.3365</a>.</li>
 </ol>
 <h3>
 Non-perturbative quantum gravity
