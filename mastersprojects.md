@@ -56,7 +56,7 @@ Nested Sampling (NS)
 Modified Newtonian Dynamics (MoND)
 </h3>
 <ol>
-<li>Introduction to the specific new relativistic MOND (RMOND) addressed by this project <a href="https://arxiv.org/abs/2007.00082">arXiv:2007.00082</a>.</li>
+<li>Introduction to the specific new relativistic MoND (RMoND) addressed by this project <a href="https://arxiv.org/abs/2007.00082">arXiv:2007.00082</a>.</li>
 <li>Quite an old study of the spherically-symmetric field equations of a Tensor-Vector-Scalar (TeVeS) theory <a href="https://arxiv.org/abs/gr-qc/0502122">arXiv:0502122</a>.</li>
 <li>McVittie by Kaloper (black holes embedded in FRW spacetimes) <a href="https://arxiv.org/abs/1003.4777">arXiv:1003.4777</a>.</li>
 <li>Reduced Lagrangia in highly symmetric spacetimes, and dangers of abbreviating the path integral, are discussed in <a href="https://arxiv.org/abs/1811.10291">arXiv:1811.10291</a> and references therein.</li>

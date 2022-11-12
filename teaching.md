@@ -3,7 +3,7 @@ layout: page
 title: Teaching 
 ---
 <body class="sph8">
-<p>This page is a "clearinghouse" for blackboards and other resources collected from undergraduate teaching, a process which has become much easier since Girton college graciously assisted with the purchase of a <a href="https://www.wacom.com/en-gb">linux-compatible stylus</a> input!</p>
+<p>This page is a "clearinghouse" for blackboards and other resources collected from undergraduate teaching, a process which has become much easier since Girton College graciously assisted with the purchase of a <a href="https://www.wacom.com/en-gb">linux-compatible stylus</a> input!</p>
 <h2>Oscillations, Waves and Optics</h2>
 <p>
 The "<i>Oscillations, waves and optics</i>" course is an ill-conceived collection of engineering concepts, written for 2nd-year undergraduates. There are two important things which are introduced in disguise, namely <b>hyperbolic systems</b> and <b>dispersion</b>. Both of these ideas play a role in actual physics. The small "<i>Experimental methods</i>" course is taught interstitially with this content: the name speaks for itself.
