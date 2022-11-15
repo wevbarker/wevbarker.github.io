@@ -17,6 +17,28 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+#
+#
+
+#==============================#
+#  Notes on building the site  #
+#==============================#
+
+#You will need Ruby 2.7, which you can get by installing rvm and then running:
+#
+#rvm install 2.7
+#rvm use 2.7
+#
+#During install you may find that there is an error in the log file:
+#
+#make: *** [uncommon.mk:295: build-ext] Error 2
+#
+#This may be caused by a lack of support for openssl on Manjaro (this also caused problems for python 2). To solve this you can use the openssl native to Ruby:
+#
+#$ rvm pkg install openssl
+#$ rvm remove 2.4
+#$ rvm install 2.4 --with-openssl-dir=$HOME/.rvm/usr
+#$ gem install bundler
 
 title: Dr. Will Barker (威廉 巴克尔) | theoretical physics, cosmology
 email: wb263@cam.ac.uk
