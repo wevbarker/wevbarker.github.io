@@ -43,6 +43,26 @@ There is some computational infrastructure that you will want to establish, for 
 <li>For abstract (and component) tensor and spinor calculus (actually for most physically motivated representations of the Lorentz group), use <a href="http://www.xact.es/"><tt>xAct</tt></a>.</li>
 <li>For help with xAct, <a href="mailto:wb263@cam.ac.uk">email me</a>, or try the <a href="https://groups.google.com/g/xAct">xAct Group</a>. The latter is actually very responsive, so don't be afraid to try!</li>
 <li>There are some great resources and example code for xAct in <a href="https://github.com/xAct-contrib/examples">this Git repository</a>.</li>
+<img src="assets/mastersprojects/masters-projects/physics/project-loncar/MRE.png" width="50%"  alt="A troublesome notebook!" title="A troublesome notebook!" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
+<li>
+Some lessons learned from a notebook that was throwing an error (see right).
+Firstly, you will almost <b>never</b> need to use <tt>TagSetDelayed</tt>, as below:
+<pre>
+<code>n /: n[a] n[-a] := -1</code>
+</pre>
+Instead, it is better to use <tt>MakeRule</tt> and <tt>AutomaticRules</tt> as per:
+<pre>
+<code>
+AutomaticRules[n,MakeRule[{n[a] n[-a],-1},MetricOn->All,ContractMetrics->True]];
+</code>
+</pre>
+This may seem long-winded, but it is much safer when extending to general indices! Next, the syntax for <tt>DefMetric</tt> is not quite right. It takes some close attention to the documentation, but you need a tuple to define the pre- and post-fix covariant derivative notation:
+<pre>
+<code>
+DefMetric[1, \[Gamma][-a, -b], D, {";","D"}, PrintAs -> "\[Gamma]", InducedFrom -> {g, n}]
+</code>
+</pre>
+</li>
 </ol>
 <h3>
 Nested Sampling (NS)
@@ -60,6 +80,17 @@ Modified Newtonian Dynamics (MoND)
 <li>Quite an old study of the spherically-symmetric field equations of a Tensor-Vector-Scalar (TeVeS) theory <a href="https://arxiv.org/abs/gr-qc/0502122">arXiv:0502122</a>.</li>
 <li>McVittie by Kaloper (black holes embedded in FRW spacetimes) <a href="https://arxiv.org/abs/1003.4777">arXiv:1003.4777</a>.</li>
 <li>Reduced Lagrangia in highly symmetric spacetimes, and dangers of abbreviating the path integral, are discussed in <a href="https://arxiv.org/abs/1811.10291">arXiv:1811.10291</a> and references therein.</li>
+<li>Various other recorded talks to be shared by email, with one embedded below.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zvXvB55xnSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ol>
+<h3>
+Geometric algebra
+</h3>
+<ol>
+<li>For many, many geometric algebra resources, see the <a href="http://geometry.mrao.cam.ac.uk">GEOMETRY website</a> as maintained by Chris Doran.</li>
+<li>For the encoding of Grassmann calculus within geometric algebra, see <a href="http://geometry.mrao.cam.ac.uk/wp-content/uploads/2015/02/grass_jmp.pdf">this quasi-seminal paper</a>.</li>
+<li>For the origin of the \(\mathrm{det}(g)^{-1/2}\) on page 16 of that paper, see below.</li>
+<img src="assets/mastersprojects/masters-projects/astrophysics/project-ross/determinant.png" title="Supervision notes on the Graussian integral." alt="Supervision notes on the Graussian integral." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 </ol>
 <h3>
 Perturbative quantum gravity
