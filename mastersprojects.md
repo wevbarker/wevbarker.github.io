@@ -95,6 +95,8 @@ Geometric algebra
 <li>For the encoding of Grassmann calculus within geometric algebra, see <a href="http://geometry.mrao.cam.ac.uk/wp-content/uploads/2015/02/grass_jmp.pdf">this quasi-seminal paper</a>.</li>
 <li>For the origin of the \(\mathrm{det}(g)^{-1/2}\) on page 16 of that paper, see below.</li>
 <img src="assets/mastersprojects/masters-projects/astrophysics/project-ross/determinant.png" title="Supervision notes on the Graussian integral." alt="Supervision notes on the Graussian integral." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
+<li>How to construct fermions in two Euclidean dimensions? This is an initial target for the lattice implementation of matter fields on dynamical triangulations. There are some indications that once could simply recycle the even sub-algebra formulation of Doran and Lasenby. If one does this, how can the Grassmann formulation be accommodated? For some remarks, see below.</li>
+<img src="assets/mastersprojects/masters-projects/astrophysics/project-ross/two_dimensional_fermions.png" title="Supervision notes on two dimensional fermions." alt="Supervision notes on two dimensional fermions." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 </ol>
 <h3>
 Perturbative quantum gravity
