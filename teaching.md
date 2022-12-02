@@ -8,6 +8,10 @@ title: Teaching
 <p>
 The "<i>Oscillations, waves and optics</i>" course is an ill-conceived collection of engineering concepts, written for 2nd-year undergraduates. There are two important things which are introduced in disguise, namely <b>hyperbolic systems</b> and <b>dispersion</b>. Both of these ideas play a role in actual physics. The small "<i>Experimental methods</i>" course is taught interstitially with this content: the name speaks for itself.
 </p>
+<h3>Lecture 8 (14:00-16:00 Thursday 1st December 2022)</h3>
+<p>
+<img src="assets/teaching/oscillations_waves_and_optics/lecture-8.png" width="100%" oncontextmenu="return false;" />
+</p>
 <h3>Lecture 7 (14:00-16:00 Thursday 25th November 2022)</h3>
 <p>
 <img src="assets/teaching/oscillations_waves_and_optics/lecture-7.png" width="100%" oncontextmenu="return false;" />
