@@ -113,6 +113,7 @@ Perturbative quantum gravity
 <li> A very useful resource which will combine much of the above literature is <a href="https://www.repository.cam.ac.uk/handle/1810/314917?show=full">Yun-Cherng's Ph.D. thesis</a>. The PSALTer code uses very different methods to those described in this implementation (which is a complicated search over root systems), but the background physics will be very useful.</li>
 <li> The PSALTer code itself, when a student-friendly version is finished later this term, will be available for download here. For the moment, you can <a href="/assets/mastersprojects/propagator-evaluated.nb" download><button type="button">download a Mathematica notebook</button></a> in which I've performed the particle spectrum analysis.</li>
 <li>Not that it has to do with particle spectra, but someone was interested in accelerated expansion. For those of us that think it has something to do with a cosmological constant, and who are wondering why the value of such a constant is so small, check out the review by Jerome Martin at <a href="https://arxiv.org/abs/1205.3365">arXiv:1205.3365</a>.</li>
+<li>One of the more recent particle spectrum analyses in the space of metric affine gauge theory (the superset of non-metric, Weyl and Poincaré gauge theories of gravity in which the conncetion is entriely general), this gives a very thorough breakdown of the spin-parity decomposition for the general three-index tensor in four dimensions <a href="https://arxiv.org/abs/1912.01023">arXiv:1912.01023</a>.</li>
 </ol>
 <h3>
 Non-perturbative quantum gravity
@@ -147,6 +148,7 @@ Cosmological perturbation theory
 <li>A slightly more in-depth exploration of perturbation theory, with discussion of extra d.o.f, can be found in <a href="https://www.mv.helsinki.fi/home/hkurkisu/CosPer2.pdf">the "Helsinki" notes</a>.</li>
 <li>A fairly up-to-date review of scalar-tensor theories, for contextual interest, can be found at <a href="https://arxiv.org/abs/1901.08690">arXiv:1901.08690</a>. Note that this review covers most of the usual cases of scalar fields which may/may not augment Einstein's theory: the scalar-tensor models in these projects have a unique motivation which is not covered here! That said, Israel Quiros (who is a very <a href="https://inspirehep.net/authors/992509">interesting researcher</a>) has also worked with torsionful models in the past.</li>
 <li>A more principled method for extracting extra scalar d.o.f from torsionful theories, with a cosmological/inflationary application, is presented in <a href="https://arxiv.org/abs/1904.03545">arXiv:1904.03545</a>. The main difference here is the guarantee that no extra non-scalar torsion d.o.f are present, which could show up in the perturbation theory.</li>
+<li>An attempt to study cosmological perturbation theory using the tetrad and spin connection can be found at <a href="https://arxiv.org/abs/1601.03943">arXiv:1601.03943</a>.</li>
 </ol>
 <h1>
 Logistics
