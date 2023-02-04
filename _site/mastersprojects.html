@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Master’s students" />
 <script type="application/ld+json">
-{"description":"This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph].","@type":"WebPage","url":"http://localhost:4000/mastersprojects.html","headline":"Master’s students","author":{"@type":"Person","name":"Dr. Will E. V. Barker"},"@context":"https://schema.org"}</script>
+{"author":{"@type":"Person","name":"Dr. Will E. V. Barker"},"description":"This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph].","@type":"WebPage","url":"http://localhost:4000/mastersprojects.html","headline":"Master’s students","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/ico" href="/favicon.ico"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dr. Will Barker (威廉 巴克尔) | theoretical physics, cosmology" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -268,6 +268,20 @@ There is some computational infrastructure that you will want to establish, for 
 <li>If you wish to compile locally, I would recommend using <a href="https://www.tug.org/texlive/"><tt>TeX Live</tt></a> and <a href="https://ctan.org/pkg/latexmk?lang=en"><tt>latexmk</tt></a> from within terminal. If you prefer a browser, use <a href="https://www.overleaf.com/">Overleaf</a>, which is (sadly) becoming more and more popular. As students, you may be able to <a href="https://www.overleaf.com/edu/cambridge">get Overleaf Professional features</a> by linking with your CRSID.</li>
 <li>There is a well defined standard for the inclusion of code in scientific papers. To understand this, look into (and use) the <a href="https://ctan.org/pkg/listings?lang=en"><tt>listings</tt></a> package in your \(\LaTeX\) source.</li>
 </ol>
+<p>
+I've prepared a more in-depth template for use in the final reports. You can download the <a href="/assets/mastersprojects/masters-projects/TeXTemplate/PartIIIProjectTemplate.tex" download=""><button type="button">main .tex file</button></a>, the <a href="/assets/mastersprojects/masters-projects/TeXTemplate/PartIIIProjectTemplateMacros.tex" download=""><button type="button">.tex file for macros</button></a>, and the <a href="/assets/mastersprojects/masters-projects/TeXTemplate/PartIIIProjectTemplate.bib" download=""><button type="button">.bib file</button></a>. This template is not a style class, but a working setup which has been carefully tuned to emulate the style of a <i>published</i> APS manuscript.
+</p>
+<p>
+<div id="example1"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/mastersprojects/masters-projects/TeXTemplate/PartIIIProjectTemplate.pdf", "#example1");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
+</p>
+<p>
+<b><i><u>You do not need to use the template if you enjoy typesetting and have already put a lot of love and care into your \(\LaTeX\) ecosystem.</u></i></b> However, please at least read the text of the pdf so as to pre-empt a lot of avoidable/repetitive editing when the time comes for me to read your report. If you don't like the conventions or have some improvements, let me know!
+</p>
 <h4>
 <tt>Git</tt>
 </h4>
@@ -361,8 +375,19 @@ Perturbative quantum gravity
 <li>Speaking of our conventions, we mostly adhere to the setup in <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/Blagojevic_M.-Gravitation_and_gauge_symmetries(2002).pdf">Blagojevic's excellent book</a>. For the most part, you won't need anything from beyond the <b>first three chapters</b>. The critical level of understanding, so as to be able to connect with the QFT literature, is as follows. You should be able to expand some Lagrangian \(\mathcal{L}=b\mathcal{L}(A^{ij}_{\ \ \ \mu},h^i_{\ \mu})\), constructed from the Riemann-Cartan and torsion tensors and various other ingredients (such as derivatives), to quadratic order around the vacuum. You should also be satisfied that the whole is invariant under translational and Lorentz-rotational gauge transformations.</li>
 <li> A very useful resource which will combine much of the above literature is <a href="https://www.repository.cam.ac.uk/handle/1810/314917?show=full">Yun-Cherng's Ph.D. thesis</a>. The PSALTer code uses very different methods to those described in this implementation (which is a complicated search over root systems), but the background physics will be very useful.</li>
 <li> The PSALTer code itself, when a student-friendly version is finished later this term, will be available for download here. For the moment, you can <a href="/assets/mastersprojects/propagator-evaluated.nb" download=""><button type="button">download a Mathematica notebook</button></a> in which I've performed the particle spectrum analysis.</li>
+<li> A Lent-term update to the last item above: a student-friendly version of PSALTer is now ready and functional. However the research programme has since developed into a broader collaboration and <b>in order to protect the IP I'll be moving the source code over from GitHub to GitLab soon</b>. To use PSALTer in the interim, please ask in person. For the moment, you can refer to the output below of the analysis of Einstein-Cartan gravity and general relativity.</li>
+<p>
+<div id="example2"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/mastersprojects/CalibrationBasic.pdf", "#example2");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
+</p>
 <li>Not that it has to do with particle spectra, but someone was interested in accelerated expansion. For those of us that think it has something to do with a cosmological constant, and who are wondering why the value of such a constant is so small, check out the review by Jerome Martin at <a href="https://arxiv.org/abs/1205.3365">arXiv:1205.3365</a>.</li>
 <li>One of the more recent particle spectrum analyses in the space of metric affine gauge theory (the superset of non-metric, Weyl and Poincaré gauge theories of gravity in which the conncetion is entriely general), this gives a very thorough breakdown of the spin-parity decomposition for the general three-index tensor in four dimensions <a href="https://arxiv.org/abs/1912.01023">arXiv:1912.01023</a>.</li>
+<li>The initial stages of the particle spectrum analysis assume a momentum-space representation for the Lagrangian, which should be checked when developing `short cuts' for the removal of surface terms. This also connects with the claim that the Lagrangian operator in \(\mathcal{L}=\frac{1}{2}\hat{\zeta}^\text{T}(-k)\hat{\mathcal{O}}(k)\hat{\zeta}(k)\) must be Hermitian.</li>
+<img src="assets/mastersprojects/masters-projects/astrophysics/project-buttigieg/FourierLagrangian.png" title="Supervision notes on the origin of the minus sign in the momentum-space Lagrangian." alt="Supervision notes on the origin of the minus sign in the momentum-space Lagrangian." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 </ol>
 <h3>
 Non-perturbative quantum gravity
@@ -397,7 +422,8 @@ Cosmological perturbation theory
 <li>A slightly more in-depth exploration of perturbation theory, with discussion of extra d.o.f, can be found in <a href="https://www.mv.helsinki.fi/home/hkurkisu/CosPer2.pdf">the "Helsinki" notes</a>.</li>
 <li>A fairly up-to-date review of scalar-tensor theories, for contextual interest, can be found at <a href="https://arxiv.org/abs/1901.08690">arXiv:1901.08690</a>. Note that this review covers most of the usual cases of scalar fields which may/may not augment Einstein's theory: the scalar-tensor models in these projects have a unique motivation which is not covered here! That said, Israel Quiros (who is a very <a href="https://inspirehep.net/authors/992509">interesting researcher</a>) has also worked with torsionful models in the past.</li>
 <li>A more principled method for extracting extra scalar d.o.f from torsionful theories, with a cosmological/inflationary application, is presented in <a href="https://arxiv.org/abs/1904.03545">arXiv:1904.03545</a>. The main difference here is the guarantee that no extra non-scalar torsion d.o.f are present, which could show up in the perturbation theory.</li>
-<li>An attempt to study cosmological perturbation theory using the tetrad and spin connection can be found at <a href="https://arxiv.org/abs/1601.03943">arXiv:1601.03943</a>.</li>
+<li>An attempt to study cosmological perturbation theory using the tetrad and spin connection can be found at <a href="https://arxiv.org/abs/1601.03943">arXiv:1601.03943</a>. In this work, the focus is on the scalar and pseudoscalar parts of the torsion tensor which Tsamparlis first demonstrated to be consistent features of the background cosmology, roughly defined as \(h\sim T{^\mu_{\ \ 0\mu}}\) and \(f\sim \epsilon^0_{\ \ \mu\nu\sigma}T{^{\mu\nu\sigma}}\). Accordingly, the analysis performed in this paper is really quite restrictive (and I'm not even sure if it is physically meaningful), but the Lu and Chee approach is at least worth a read.</li>
+<li>It appears that the most concerted (and most recent) work on the cosmological perturbation theory of torsionful gravity has been through the lens of the teleparallel theory. In teleparallel theory, the gravitational Lagrangian density is \(\mathcal{L}=\frac{1}{2}M_{\text{Pl}}^2\mathbb{T}\) where \(\mathbb{T}=\frac{1}{4}T_{ijk}T^{ijk}+\frac{1}{2}T_{ijk}T^{jik}-T^{i}_{\ \ ji}T_{k}^{\ \ jk}\) is a specific combination of quadratic torsion invariants. For teleparallel gravity (and the natural extension to \(f(\mathbb{T})\) gravity) to function like GR, there are some nuanced conditions that have to be applied to the spin connection. It is within the context of these conditions that the cosmological perturbation theory has been explored in papers such as <a href="https://arxiv.org/abs/1911.06064">arXiv:1911.06064</a>, <a href="https://arxiv.org/abs/2001.10015">arXiv:2001.10015</a> and <a href="https://arxiv.org/abs/2110.12332">arXiv:2110.12332</a>. These were skimmed from a half-hour on the arXiv, so I would <b>strongly recommend</b> you make a very thorough literature review of possible approaches to the SVT decomposition in the gauge-theoretic formulation: other authors may have devised some really neat tricks that could save you time!</li>
 </ol>
 <h1>
 Logistics

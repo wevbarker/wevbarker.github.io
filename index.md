@@ -171,10 +171,22 @@ Here is a math interview question that was kept in reserve for the 2021 Girton a
 <p>
 Here is a hint: how does the superficial divergence of a \(L=\partial_\mu\phi\partial^\mu\phi/2-\lambda\phi^n/n!\) diagram go with loops, legs and vertices?
 </p>
+<p>
 <div id="example1"></div> 
 <script src="pdfobject.js"></script>
 <script>PDFObject.embed("/assets/index/teaser.pdf", "#example1");</script>
 <style>
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
-
+</p>
+<p>
+Here is another question which was kept in reserve for the 2022 admissions.
+</p>
+<p>
+<div id="example2"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/index/teaser_2.pdf", "#example2");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
+</p>

@@ -5,7 +5,20 @@ title: Teaching
 <body class="sph8">
 <p>This page is a "clearinghouse" for blackboards and other resources collected from undergraduate teaching, a process which has become much easier since Girton College graciously assisted with the purchase of a <a href="https://www.wacom.com/en-gb">linux-compatible stylus</a> input!</p>
 <h2>Quantum Physics</h2>
+<p>
+The "<i>Quantum physics</i>" course offers an introduction to the non-relativistic quantum theory. Little or no attention is given to the axioms of quantum theory. Lots of emphasis is placed on the position ("<i>wave function</i>" or "<i>quantum wave</i>") representation for massive particles, which is mostly useless for physics in general and actively harmful for quantum field theory (QFT) in particular (there are some applications within quantum chemistry and experimental solid state physics). There is an introduction to the quantisation of orbital and intrinsic angular momentum, somehow without reference to the orthogonal or Lorentz groups.
+</p>
+<h3>Lecture 2 (14:00-16:00 Thursday 2nd February 2023)</h3>
+<p>
+Ideal square wells (finite and infinite), continuity and boundary conditions for the wave function, probability current in one spatial dimension, correspondence principle, classical vs quantum expectation values.
+</p>
+<p>
+<img src="assets/teaching/quantum_physics/lecture-2.png" width="100%" oncontextmenu="return false;" />
+</p>
 <h3>Lecture 1 (14:00-16:00 Thursday 26th January 2023)</h3>
+<p>
+Photoelectric effect, application of Heisenberg uncertainty principle to classical mechanics, Bohr's quantisation criterion and the fine structure constant, wave function normalisation, non-relativistic massive particle dispersion, the momentum operator. The mock exam from January 18th is also discussed.
+</p>
 <p>
 <img src="assets/teaching/quantum_physics/lecture-1.png" width="100%" oncontextmenu="return false;" />
 </p>
