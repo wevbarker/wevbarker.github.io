@@ -188,7 +188,7 @@ Cosmological perturbation theory
 </style>
 </p>
 <li>In tandem with the Wolfram script above, some parts of the calculation are easiest done by hand. These are shown below, and at the end in the red boxes you can see a summary of the background solutions for the CTEG.</li>
-<img src="assets/mastersprojects/masters-projects/astrophysics/project-pitt/TorsionCondensate.png" title="Supervision notes on the finitude of the conformal algebra in more than two dimensions." alt="Supervision notes on the finitude of the conformal algebra in more than two dimensions." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
+<img src="assets/mastersprojects/masters-projects/astrophysics/project-pitt/TorsionCondensate.png" title="Supervision notes on the torsion condensate." alt="Supervision notes on the torsion condensate." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 </ol>
 <h1>
 Logistics
