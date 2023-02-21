@@ -189,6 +189,8 @@ Cosmological perturbation theory
 </p>
 <li>In tandem with the Wolfram script above, some parts of the calculation are easiest done by hand. These are shown below, and at the end in the red boxes you can see a summary of the background solutions for the CTEG.</li>
 <img src="assets/mastersprojects/masters-projects/astrophysics/project-pitt/TorsionCondensate.png" title="Supervision notes on the torsion condensate." alt="Supervision notes on the torsion condensate." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
+<li>For those students who are working with the full mechanics of the Poincaré gauge theory on the background of an expanding spacetime, the Ricci rotation coefficients \(\Delta^{ij}_{\ \ \ \mu}\) will be needed. They are not necessary if you are working with the scalar tensor analogue theory. If you are using them, it is important to correctly interpret the valences and tangent spaces associated with the different slots, because both raising and lowering and exchanging of Greek and Roman indices become nontrivial operations at zeroth order on the expanding background. The following notes may be of use not only for the cosmological perturbation theory, but also for the particle spectrum.</li>
+<img src="assets/mastersprojects/masters-projects/astrophysics/project-buttigieg/RicciRotationCoefficients.png" title="Supervision notes on the Ricci rotation coefficients." alt="Supervision notes on the Ricci rotation coefficients." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 </ol>
 <h1>
 Logistics
