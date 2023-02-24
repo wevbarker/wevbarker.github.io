@@ -8,6 +8,13 @@ title: Teaching
 <p>
 The "<i>Quantum physics</i>" course offers an introduction to the non-relativistic quantum theory. Little or no attention is given to the axioms of quantum theory. Lots of emphasis is placed on the position ("<i>wave function</i>" or "<i>quantum wave</i>") representation for massive particles, which is mostly useless for physics in general and actively harmful for quantum field theory (QFT) in particular (there are some applications within quantum chemistry and experimental solid state physics). There is an introduction to the quantisation of orbital and intrinsic angular momentum, somehow without reference to the orthogonal or Lorentz groups.
 </p>
+<h3>Lecture 5 (14:00-16:00 Thursday 23rd February 2023)</h3>
+<p>
+Spherical polar coordinate basis for angular momentum operators, angular momentum ladder operators, orbital angular momentum and azimuthal quantum numbers, orbitals of a hydrogen-like atom, expected positions and distributions of the electron, spherical harmonics, separable Hamiltonia, higher-dimensional quantum harmonic oscillator, generalised conjugate quantum numbers and the symplectic form.
+</p>
+<p>
+<img src="assets/teaching/quantum_physics/lecture-5.png" width="100%" oncontextmenu="return false;" />
+</p>
 <h3>Lecture 4 (14:00-16:00 Thursday 16th February 2023)</h3>
 <p>
 Changes of basis in the quantum Hilbert space, time evolution of non-stationary states and the expectation values of operators which are not compatible with the Hamiltonian. Creation and annihilation operators in the context of the quantum harmonic oscillator, Ehrenfest's theorem in the Schrödinger picture, time evolution operator, angular momentum operator. Hamiltonian dynamics and canonical quantisation, Groenwold's theorem.
