@@ -81,6 +81,12 @@ DefMetric[1, \[Gamma][-a, -b], D, {";","D"}, PrintAs -> "\[Gamma]", InducedFrom 
 <li>If you define a scalar such as <tt>Phi[]</tt>, i.e. call <tt>DefTensor</tt> without index specifications, you must <b>still</b> use the empty square brackets whenever you use your scalar in a tensor expression. There may be some rare scenarios where you will wish to refer to the <tt>xTensor</tt> head directly.</li>
 <li>Likewise, covariant derivatives <b>always</b> have the structure <tt>CovD_[Indices__]@xTensor_</tt>, and you must remember both the indices and the action on some tensor expression (expressed either using <tt>@</tt> or <tt>[]</tt>).</li>
 <li>A very useful set of tools is provided by the <a href="http://www.xact.es/xtras/">xTras</a> package. This is oriented towards field theory. In particular, if you have a complicated expression and <tt>ToCanonical</tt> is not properly sweeping up all constant symbols into prefactors of unique tensor terms, you should try the <tt>CollectTensors</tt> function.</li>
+<li>After a time, the question naturally comes as "<b>How can I better format my tensor head?</b>" The route here is provided by the <tt>PrintAs</tt> option. This function will allow you to effectively parse any string for formatting purposes. Want an accent and superscript on your tensor name? No problem!</li>
+<pre>
+<code>
+DefTensor[NicelyFormattedTensor[-a,b],M4,PrintAs->"\!\(\*SuperscriptBox[OverscriptBox[\(\[ScriptCapitalP]\),\(^\)],\\(\[UpTee]\)]\)"];
+</code>
+</pre>
 </ol>
 <h3>
 Nested Sampling (NS)
