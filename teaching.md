@@ -8,6 +8,14 @@ title: Teaching
 <p>
 The "<i>Quantum physics</i>" course offers an introduction to the non-relativistic quantum theory. Little or no attention is given to the axioms of quantum theory. Lots of emphasis is placed on the position ("<i>wave function</i>" or "<i>quantum wave</i>") representation for massive particles, which is mostly useless for physics in general and actively harmful for quantum field theory (QFT) in particular (there are some applications within quantum chemistry and experimental solid state physics). There is an introduction to the quantisation of orbital and intrinsic angular momentum, somehow without reference to the orthogonal or Lorentz groups.
 </p>
+<h3>Lecture 7 (14:00-16:00 Thursday 9th March 2023)</h3>
+<p><b><i><u>Please remember that this one will be online!</u></i></b><!-- -- (and it was online!)--></p>
+<p>
+Review. Prompt measurements of incompatible observables in succession, Baker-Campbell-Hausdorff formula, coherent states of the quantum harmonic oscillator as eigenstates of the creation and annihilation operators with complex eigenvalues and minimum uncertainty.
+</p>
+<p>
+<img src="assets/teaching/quantum_physics/lecture-7.png" width="100%" oncontextmenu="return false;" />
+</p>
 <h3>Lecture 6 (14:00-16:00 Thursday 2nd March 2023)</h3>
 <p>
 Quantum spin, total angular momentum and Clebsch-Gordon coefficients, generation of spin, orbital and total angular momentum multiplets by raising and lowering, Stern-Gerlach apparatus, pure multi-particle states and the (non-relativistic limit of the) spin statistics theorem, degeneracy.
