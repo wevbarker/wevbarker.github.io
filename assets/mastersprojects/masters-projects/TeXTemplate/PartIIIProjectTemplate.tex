@@ -62,6 +62,14 @@
 
 \maketitle
 
+\begin{figure}[t!]
+  \center
+  \includegraphics[width=\linewidth]{PartIIIProjectTemplateFigure.pdf}
+	\caption{\label{PartIIIProjectTemplateFigure} 
+	When captioning a figure, you should assume that the reader will have read the title and abstract of your paper and \textit{nothing else}. Therefore, the caption should be as self-contained as possible. Avoid acronyms, but feel free to use inline equations and even repeat content from the main body of the text. Most plots these days are produced via the Matplotlib library in Python. The plot above was made this way, but is not necessarily a good example of Matplotlib styling (which goes beyond the scope of this template). For schematic diagrams, flow-charts and suchlike, you should use \texttt{TikZ}. Never use the Wolfram language to produce plots.
+	}
+\end{figure}
+
 \section{Introduction}\label{Introduction}
 
 The introduction can be really very long. Much of it will be made up of introductory paragraphs with a citation density~\cite{Heisenberg:2020xak} of one or more per line~\cite{PhysRevD.28.286,Shaposhnikov:2020aen}. Take careful note of the tilde used to fill the space before \texttt{\textbackslash cite\{\}}, since this prevents citations from appearing at the beginning of a new line. You should use the tilde technique before \emph{all} kinds of references, be they equations, citations or figures. The density of citations is important: there is a special place in Jahannam for people who do not cite enough;
@@ -75,19 +83,11 @@ To cite, you must use \texttt{BibTeX}. Find your papers on the \href{https://ui.
 
 There can also be paragraphs where you argue verbally, without citing. You can have some equations, but it is better to avoid long, heavy derivations. If your equations are inline, you can prevent them from being broken by wrapping with an extra pair of braces, as with \texttt{\$\{z=r\textbackslash cos(\textbackslash theta)\}\$}, but this can lead to some strange effects if you're not careful.
 
-\begin{figure}[t!]
-  \center
-  \includegraphics[width=\linewidth]{PartIIIProjectTemplateFigure.pdf}
-	\caption{\label{PartIIIProjectTemplateFigure} 
-	When captioning a figure, you should assume that the reader will have read the title and abstract of your paper and \textit{nothing else}. Therefore, the caption should be as self-contained as possible. Avoid acronyms, but feel free to use inline equations and even repeat content from the main body of the text. Most plots these days are produced via the Matplotlib library in Python. The plot above was made this way, but is not necessarily a good example of Matplotlib styling (which goes beyond the scope of this template). For schematic diagrams, flow-charts and suchlike, you should use \texttt{TikZ}. Never use the Wolfram language to produce plots.
-	}
-\end{figure}
-
 In this section, you will start to introduce and then use (strictly in that order) acronyms; such is the case with Einstein--Cartan (EC) theory. Note that name-concatenation is done with a \emph{long} hyphen, typed as~\texttt{-{-}}. If you want to make a parenthetic remark --- such as this useless clause --- you can use the \emph{longer} hyphen~\texttt{-{-}{-}}.
 
 There are some other quirks, for example Sean Carroll may believe that there are many universes, but \emph{ours} must always be referred to as the Universe with a capital U.
 
-Every now and then, you may want a figure, such as~\cref{PartIIIProjectTemplateFigure}. You should try as hard as you can to refer to the figure for the first time somewhere in the same page on which it appears. Never let a figure appear significantly ahead of its textual reference, and never ever fail to refer to a figure in the text. Controlling the positions of floats in \LaTeX{} is a pain, but you can usually find a way.
+Every now and then, you may want a figure, such as~\cref{PartIIIProjectTemplateFigure}. You should try as hard as you can to refer to the figure for the first time somewhere in the same page on which it appears, but don't worry if you lag or lead by a page (especially if the figure is large). Never let a figure appear significantly ahead of its textual reference, and never ever fail to refer to a figure in the text. Controlling the positions of floats in \LaTeX{} is a pain, but you can usually find a way.
 
 The final paragraph of the introduction should tell the reader what the structure of the remaining part of the paper will be like. For example in~\cref{Methods} we will point out that interesting papers have interesting section titles. In~\cref{FTL} we will list some formatting tips, before concluding in~\cref{ConcludingRemarks}. Appendices follow. You should also set out your conventions, such as the (preferred) use of the West Coast signature $(+,-,-,-)$, natural units $\hbar=c=1$ and construction of the chiral matrix from the gamma basis (i.e. whether or not you prefer to include the imaginary unit)\footnote{By the way, don't be afraid to use footnotes.}.
 
@@ -158,6 +158,8 @@ main = (randomRIO (1, 137) :: IO Int) >>= print
 \end{widetext}
 can be readily beautified with \texttt{\textbackslash lstset}. You can certainly quote Wolfram language in your paper. However, output from the Mathematica GUI should be handled more carefully. I have some useful tricks to help with this, which will likely be better than any solutions you can find on the internet.
 
+By the way, some computations can be very long, and they may detract from the flow of the paper. If they need to be included at all (for example, for the sake of reproducibility of your results), it is okay to include them in an appendix, such as~\cref{Appendix}.
+
 \section{Concluding remarks}\label{ConcludingRemarks}
 
 Apart from~\cref{Introduction}, the final section is the only one which is allowed to have a generic title. Your conclusions should be as short as humanly possible. If you find yourself writing closely-argued and lengthy arguments in the conclusions, then you should stop and move them further up into the body of the paper (perhaps into a penultimate `Discussion' section). If the reader got as far as the conclusions, it is likely because they read the title and abstract, scanned the figures and \emph{skipped} the whole of the rest of the paper. Be very terse, it is okay to include some bullet points in the conclusion. 
@@ -180,7 +182,7 @@ If, during the course of the project, either the candidate or supervisor were as
 \bibliography{PartIIIProjectTemplate}
 
 \appendix
-\section{Some lengthy calculations}
+\section{Some lengthy calculations}\label{Appendix}
 There is no harm at all in adding appendices.
 
 \end{document}
