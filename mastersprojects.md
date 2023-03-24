@@ -121,6 +121,17 @@ Geometric algebra
 <img src="assets/mastersprojects/masters-projects/astrophysics/project-ross/two_dimensional_fermions.png" title="Supervision notes on two dimensional fermions." alt="Supervision notes on two dimensional fermions." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 <img src="assets/mastersprojects/masters-projects/astrophysics/project-ross/Graussian.png" width="50%"  alt="Supervision notes on how to combine Grassmann-odd numbers with minimal left ideals." title="Supervision notes on how to combine Grassmann-odd numbers with minimal left ideals." vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 <li>The problem of combining Grassmann-odd variables with the spin structure within one geometric algebra does not actually seem to be so hard. The scalar components can be thought of as inner products of the non-orthonormal Grassmann basis (two basis vectors for each lattice site or node of the dual lattice), with arbitrary vectors \(a\) and \(b\). Care must be taken in constructing the `spin structure part' of the Lagrangian, so that the order of the vectors is reflected in the order of the \((\partial_a\wedge\partial_b)\) prefactor. It should then be possible to extend this setup to non-Gaussian theories via \((\partial_a\wedge\partial_b\wedge\partial_c\wedge ...)\) etc. It may still be possible to recover the Grassmann-odd expressions naturally from the order of operations, but I don't think it can be done if the components are scalars as in the minimal left ideal formulation: since scalars commute with all other grades, their order will be eventually lost whenever bilinear invariants are expanded. Note that the setup to the right is actually simpler than that which I proposed in the meeting on Thursday 2nd February 2023, in that the wedge product does not appear between the spinors.</li>
+<li>An especially useful "cheat-sheet" of geometric algebra identities can be found in the file below.</li>
+<p>
+<div id="example6"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/mastersprojects/masters-projects/astrophysics/project-ross/sqr_some_useful_ga_formulae.pdf", "#example6");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
+</p>
+<li>Using Eq. (18) from this document, and the definition of the multivector derivative, we can obtain some further very useful identities.</li>
+<img src="assets/mastersprojects/masters-projects/astrophysics/project-ross/MultivectorDerivative.png" title="Supervision notes on the multivector derivative." alt="Supervision notes on the multivector derivative." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 </ol>
 <h3>
 Perturbative quantum gravity
@@ -220,6 +231,8 @@ Cosmological perturbation theory
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
 </p>
+<li>Some sketch of the process for recovering the Bardeen potentials from the (enhanced) scalar perturbation modes of the tetrad field can be found below.</li>
+<img src="assets/mastersprojects/masters-projects/physics/project-loncar/PerturbationTheory.png" title="Supervision notes on the Bardeen potentials." alt="Supervision notes on the Bardeen potentials." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 </ol>
 <h1>
 Logistics
