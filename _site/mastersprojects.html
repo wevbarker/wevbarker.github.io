@@ -357,6 +357,23 @@ Modified Newtonian Dynamics (MoND)
 <iframe width="100%" height="415" src="https://www.youtube.com/embed/zvXvB55xnSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <li>The MoND project is the only one for which <tt>xCoba</tt> is likely to be very useful. Unhappily, the <tt>xCoba</tt> documentation is pretty shaky, and the paucity of knowledge I have about it is mostly patched together from forums and bit-rotted notebooks (credit to those who post and reply!). Below is a sloppy walkthrough of a script which obtains the so-called <i>minisuperspace</i> equations on the cosmological FLRW background, for the CTEG theory. The script itself can be found in the section on cosmological perturbation theory, and you should be able to edit it to investigate the spherically symmetric spacetime relevant to the MoND project.</li>
 <iframe width="100%" height="415" src="https://www.youtube.com/embed/exA1KVZ9vQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+<li>In this script, you can find some tools for extracting the modified spherically symmetric field equations. In particular you will need to implement a unit-timelike one-form field with spherical symmetry. You can do this with the command:
+<pre>
+<code>
+DefScalarFunction[A1,PrintAs-&gt;"\[CapitalPhi]"];
+DefScalarFunction[A2,PrintAs-&gt;"\[CapitalPsi]"];
+AllComponentValues[A[{-a,-SphericalPolar}],{A1[cr[]],B2[cr[]]*Sqrt[A1[cr[]]^2/B1[cr[]]^2-1],0,0}];
+</code>
+</pre>
+You can <a href="/assets/mastersprojects/masters-projects/physics/project-ivanov/sqr_BlackHoleEquations.tar.gz" download=""><button type="button">download a tarball of the sources</button></a>, or see an embedded pdf below.</li>
+<p>
+<div id="example8"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/mastersprojects/masters-projects/physics/project-ivanov/sqr_BlackHoleEquations.pdf", "#example8");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
+</p>
 </ol>
 <h3>
 Geometric algebra
