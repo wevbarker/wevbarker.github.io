@@ -210,6 +210,9 @@ Non-perturbative quantum gravity
 <img src="assets/mastersprojects/masters-projects/physics/project-nenmeli/conformal.png" title="Supervision notes on the finitude of the conformal algebra in more than two dimensions." alt="Supervision notes on the finitude of the conformal algebra in more than two dimensions." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 <li>Tong's lectures on statistical field theory can be found <a href="https://www.damtp.cam.ac.uk/user/tong/sft.html">here</a>.</li>
 <li>Why restrict to \(N\)-spheres? CDT is implemented on a \(2+1\) torus in <a href="https://arxiv.org/abs/1305.4702">arXiv:1305.4702</a>.</li>
+
+<li>Below is a sketch of how to apply the Fujikawa method to the (Euclideanised) Schwinger model in curved spacetime, i.e. a conformally flat 2D manifold. Extra attention is needed in the gauge-fixed bosonic kinetic term, and also the anomalous chiral term. In the latter case, I believe you need to use a Dirac eigenbasis which is valid and orthonormal in the curved spacetime. Then, you also need to use the curved space Dirac operator in the heat kernel regularisation. Without going through all the steps in detail, I suspect the final answer is precisely that which you would get if you insisted on general covariance. That seems natural, but I'm not sure if you would absolutely expect it a priori (since we are in the game of symmetry breaking).</li>
+<img src="assets/mastersprojects/masters-projects/physics/project-nenmeli/Fujikawa.png" title="Supervision notes on Fujikawa decoupling of the Schwinger model in curved spacetime." alt="Supervision notes on Fujikawa decoupling of the Schwinger model in curved spacetime." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 </ol>
 <h3>
 Cosmological perturbation theory
@@ -260,8 +263,6 @@ Cosmological perturbation theory
 </style>
 </p>
 
-
-
 <li>There is some question surrounding the nature of the scalar mode in the spin-2 parity-odd sector of the connection field. This mode has (to the best of my knowledge) never been treated with the SVT decomposition method. However, a quarter-hour of tinkering suggests that it is not too hard to obtain. Please double-check my results. You can <a href="/assets/mastersprojects/masters-projects/physics/project-loncar/sqr_ParityOddSpinTwoScalar.tar.gz" download><button type="button">download a tarball of the sources</button></a>, or see an embedded pdf below.</li>
 <p>
 <div id="example9"></div> 
@@ -271,10 +272,6 @@ Cosmological perturbation theory
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
 </p>
-
-
-
-
 </ol>
 <h1>
 Logistics
