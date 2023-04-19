@@ -187,6 +187,16 @@ Perturbative quantum gravity
 <img src="assets/mastersprojects/masters-projects/astrophysics/project-buttigieg/FourierLagrangian.png" title="Supervision notes on the origin of the minus sign in the momentum-space Lagrangian." alt="Supervision notes on the origin of the minus sign in the momentum-space Lagrangian." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
 <li>It is important to check that any nontrivial background around which you are perturbing your Lagrangian is satisfied by the perturbed field equations at lowest order. This is a basic self-consistency requirement. For more on this, see some notes below.</li>
 <img src="assets/mastersprojects/masters-projects/astrophysics/project-buttigieg/FieldEquations.png" title="Supervision notes on the non-Minkowski background and the first-order Lagrangian." alt="Supervision notes on the non-Minkowski background and the first-order Lagrangian." width="100%" vspace="10" hspace="10" align="right" oncontextmenu="return false;" />
+<li>After plenty of struggle, we've eventually been able to implement the <i><b>whole</b></i> of the metric affine gauge theory of gravity into PSALTer. The main contribution to this particular process comes from Zhiyuan, who performed the mode decomposition of the rank-three four-tensor symmetric in two of its indices. Below is an example calculation for the MAGT in which the Lagrangian contains just the Einstein-Hilbert term. These results can be copied into your report, and particular attention should be paid to the gauge symmetries of the theory, and their relation to the constraints on the source currents. 
+</li>
+<p>
+<div id="example10"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/mastersprojects/masters-projects/physics/project-wei/sqr_MAGT.pdf", "#example10");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
+</p>
 </ol>
 <h3>
 Non-perturbative quantum gravity
