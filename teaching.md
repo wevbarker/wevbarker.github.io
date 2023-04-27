@@ -4,12 +4,24 @@ title: Teaching
 ---
 <body class="sph8">
 <p>This page is a "clearinghouse" for blackboards and other resources collected from undergraduate teaching, a process which has become much easier since Girton College graciously assisted with the purchase of a <a href="https://www.wacom.com/en-gb">linux-compatible stylus</a> input!</p>
+<h2>Condensed Matter Physics</h2>
+<p>
+The "<i>Condensed matter physics</i>" course introduces some ultra-low-energy effective theories, particularly those which we commonly encounter in our narrowly-defined regime of existence well below the Planck scale. In this regime it is proposed that there are such things as crystals. Among them are metals: these are actually interesting, and give rise to such interesting models as Fermi liquid theory. You will not learn about Fermi liquid theory in this course. Some of you may find this course interesting, but beware: the correct route of entry into the condensed matter world is via the quantum dynamics/TP route which is on offer in Part II. Basically, if the course is designed and run by someone at the TCM group, then it can be trusted, but otherwise you should be suspicious.
+</p>
+<h3>Lecture 1 (15:00-16:00 Thursday 27th April 2023)</h3>
+<p><b><i><u>Please remember that this one will be online!</u></i></b> -- (and it was online!)</p>
+<p>
+Introduction to the Bravais lattice, crystallographic groups, Miller indices, cells and primitive cells, the reciprocal lattice, monatomic phonon theory in one dimension (quasiparticle excitations).
+</p>
+<p>
+<img src="assets/teaching/condensed_matter_physics/lecture-1.png" width="100%" oncontextmenu="return false;" />
+</p>
 <h2>Quantum Physics</h2>
 <p>
 The "<i>Quantum physics</i>" course offers an introduction to the non-relativistic quantum theory. Little or no attention is given to the axioms of quantum theory. Lots of emphasis is placed on the position ("<i>wave function</i>" or "<i>quantum wave</i>") representation for massive particles, which is mostly useless for physics in general and actively harmful for quantum field theory (QFT) in particular (there are some applications within quantum chemistry and experimental solid state physics). There is an introduction to the quantisation of orbital and intrinsic angular momentum, somehow without reference to the orthogonal or Lorentz groups.
 </p>
 <h3>Lecture 8 (13:00-15:00 Thursday 16th March 2023)</h3>
-<p><b><i><u>Please remember that this one will be online!</u></i></b><!-- -- (and it was online!)--></p>
+<p><b><i><u>Please remember that this one will be online!</u></i></b> -- (and it was online!)</p>
 <p>
 Review. Squeezed states of the quantum harmonic oscillator, anisotropic quartic potential, angular momenum operators as the generators of rotations.
 </p>
