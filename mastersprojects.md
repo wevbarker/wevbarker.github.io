@@ -312,6 +312,8 @@ Cosmological perturbation theory
 .pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
 </style>
 </p>
+<li>Here is the short video discussion regarding the 2-form field which carries all the dynamics of the strongly coupled modified gravity theory.</li>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UzzWdThSiV4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </ol>
 <h1>
 Logistics
