@@ -8,6 +8,24 @@ title: Teaching
 <p>
 The "<i>Condensed matter physics</i>" course introduces some ultra-low-energy effective theories, particularly those which we commonly encounter in our narrowly-defined regime of existence well below the Planck scale. In this regime it is proposed that there are such things as crystals. Among them are metals: these are actually interesting, and give rise to such interesting models as Fermi liquid theory. You will not learn about Fermi liquid theory in this course. Some of you may find this course interesting, but beware: the correct route of entry into the condensed matter world is via the quantum dynamics/TP route which is on offer in Part II. Basically, if the course is designed and run by someone at the TCM group, then it can be trusted, but otherwise you should be suspicious.
 </p>
+<h3>Lecture 4 (16:00-18:00 Monday 22nd May 2023)</h3>
+<p><b><i><u>Please remember that this one will be online!</u></i></b> -- (and it was online!)</p>
+<p>
+Bloch's theorem and quantisation in a periodic background potential, valence and conduction bands, band splitting, valence and metallic/insulator character, hole states, effective and anisotropic mass, dopants and effective hydrogen-like states within insulators, semiconductors, p/n junctions, potential bias, recombination current.
+</p>
+<p>
+<img src="assets/teaching/condensed_matter_physics/lecture-4.png" width="100%" oncontextmenu="return false;" />
+</p>
+<p>
+Factorisation of spatial and spin states of indistinguishable particle pairs, spatial exchange symmetry and Coulombic pair-interaction, Bloch's ansatz for the periodic ring potential.
+</p>
+<p>
+<img src="assets/teaching/ExamQuestions-4.png" width="100%" oncontextmenu="return false;" />
+</p>
+<h3>Lecture 3 (14:00-16:00 Monday 17th May 2023)</h3>
+<p>
+Unfortunately, the deadline for my Master's students to submit their theses was at 16:00 BST today, and that led to a few (perfectly avoidable) crises throughout the morning. As a result, I failed to solve this week's solutions within my usual morning window. It is very unlikely I will return to this now, so please let me know if any of the problems need attention!
+</p>
 <h3>Lecture 2 (14:00-16:00 Monday 8th May 2023)</h3>
 <p>
 Diatomic phonon dispersion relations, reduced periodicity and folding of the Brilloin zone, splitting of acoustic and optical modes, crystal momentum. Debye theory, Dulong-Petit law, Planck distribution, bosonic occupancy of phonon modes, phonons as non-relativistic quantum field theories, phonon dispersion relations of sodium chloride and a silicon germanium superlattice, using normal mode intuition and reduced masses to infer splitting hierarchies.
