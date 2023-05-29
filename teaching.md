@@ -8,6 +8,13 @@ title: Teaching
 <p>
 The "<i>Condensed matter physics</i>" course introduces some ultra-low-energy effective theories, particularly those which we commonly encounter in our narrowly-defined regime of existence well below the Planck scale. In this regime it is proposed that there are such things as crystals. Among them are metals: these are actually interesting, and give rise to such interesting models as Fermi liquid theory. You will not learn about Fermi liquid theory in this course. Some of you may find this course interesting, but beware: the correct route of entry into the condensed matter world is via the quantum dynamics/TP route which is on offer in Part II. Basically, if the course is designed and run by someone at the TCM group, then it can be trusted, but otherwise you should be suspicious.
 </p>
+<h3>(Extra exam-related detritus)</h3>
+<p>
+Matrix mechanics and hybridisation for a double potential well, spin-orbit interaction (relativistic correction) and splitting of the quantum harmonic oscillator (this feels incorrect to me, please check).
+</p>
+<p>
+<img src="assets/teaching/ExamQuestions-5.png" width="100%" oncontextmenu="return false;" />
+</p>
 <h3>Lecture 4 (16:00-18:00 Monday 22nd May 2023)</h3>
 <p><b><i><u>Please remember that this one will be online!</u></i></b> -- (and it was online!)</p>
 <p>
