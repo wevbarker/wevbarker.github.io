@@ -2,6 +2,7 @@
 layout: page 
 title: Teaching 
 ---
+
 <body class="sph8">
 <p>This page is a "clearinghouse" for blackboards and other resources collected from undergraduate teaching, a process which has become much easier since Girton College graciously assisted with the purchase of a <a href="https://www.wacom.com/en-gb">linux-compatible stylus</a> input!</p>
 <h2>Condensed Matter Physics</h2>
@@ -215,6 +216,15 @@ The "<i>Oscillations, waves and optics</i>" course is an ill-conceived collectio
 <p><i>No curated content for this page yet!</i></p>
 <h2>Quantum Physics</h2>
 <p><i>No curated content for this page yet!</i></p>
-
+<p>
+Someone I know was applying for a PGCE in physics, here are some slides for a five-minute mini-lesson on the physics of waves.
+</p>
+<p>
+<div id="example2"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/teaching/PGCEInterview.pdf", "#example2");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
+</p>
 </body>
-
