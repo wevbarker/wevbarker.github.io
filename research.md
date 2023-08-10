@@ -62,3 +62,16 @@ In recent years, I've been working on the non-Riemannian modified gravity theori
 <img src="assets/research/fig-6.jpg" width=400px alt="Even with negative vacuum energy, the Universe inevitably flows towards a region of accelerated expansion (yellow)." title="Even with negative vacuum energy, the Universe inevitably flows towards a region of accelerated expansion (yellow)." align="left" vspace="10" hspace="10">
 Even if the bare cosmological constant is <em>negative</em> \(\Lambda<0\), the Universe still accelerates as shown on the left. While the theory was initially proposed as being unitary and power counting renormalisable when linearised on a flat background, it is expected that problems might arise in the nonlinear regime.
 </p>
+<p>
+Here is my research proposal for the 2020-2021 job application season (which is now over). If you want a PDF, you can <a href="/assets/proposal/research_statement.pdf" download><button type="button">download my research proposal</button></a>
+</p>
+<p>
+If I can speak <tt>JavaScript</tt>, and your browser supports inline PDFs, you should see a preview below.
+</p>
+<div id="example1"></div> 
+<script src="pdfobject.js"></script>
+<script>PDFObject.embed("/assets/proposal/research_statement.pdf", "#example1");</script>
+<style>
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+</style>
+</body>

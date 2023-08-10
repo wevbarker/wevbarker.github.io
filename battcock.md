@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Hills Coffee Talks 
+title: Hills 
 ---
 <body class="sph7">
 <img src="assets/battcock/Professor_Richard_Hills_FRS.jpg" width=150px  alt="Professor Richard Hills FRS" title="Professor Richard Hills FRS" vspace="10" hspace="10" align="right" />

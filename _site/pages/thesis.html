@@ -26,6 +26,138 @@
   </script>
 
 <style>
+/*
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  padding-top: 30px;
+  @extend %clearfix;
+  background-color: rgba(255,255,255, .7);
+ */
+
+.skiff {
+    width: 100%;
+}
+/*
+.my-page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    display: block;
+    padding: 5px 10px;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    margin-left: 20px;
+  }
+*/
+
+.my-page-link {
+display: inline-block;
+padding: 0;
+&:not(:last-child) {
+margin-right: 20px;
+}
+margin-left: auto;
+}
+
+.site-nav {
+  position: relative;
+  top: 9px;
+  /*right: $spacing-unit / 2;*/
+  /*right: -100px;*/
+  /*max-width: 100px;*/
+  /*width: 200px;*/
+  background-color: $background-color;
+  border: 1px solid $border-color-01;
+  border-radius: 5px;
+  float: left;
+  text-align: left;
+  max-width: 100%;
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+
+    > svg path {
+      fill: $border-color-03;
+    }
+  }
+
+  label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    display: block;
+    padding: 5px 10px;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    margin-left: 20px;
+  }
+
+  @media screen and (min-width: $on-medium) {
+    position: static;
+    float: right;
+    border: none;
+    background-color: inherit;
+
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+    }
+
+    .page-link {
+      display: inline;
+      padding: 0;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+      margin-left: auto;
+    }
+  }
+}
+
   body {
   background-image: url('/assets/backgrounds/tmp0.png');
   background-repeat: no-repeat;
@@ -136,7 +268,7 @@
   background-attachment: fixed;
 	}
 }
-  .div-1 {
+.div-1 {
     /*
     background-color: #ffffff;
     padding: 25px;
@@ -147,7 +279,7 @@
     border-radius: 25px;
     */
 }
-  .site-header {
+.site-header {
     border-top: 0px solid rgb(127, 0, 0);
     border-bottom: 20px solid rgb(127, 0, 0);
     border-bottom: 20px solid rgba(242, 190, 17, .7);
@@ -168,6 +300,23 @@
   background-size: 100% 270%;
   background-position: center bottom;
 }
+.site-title {
+  @include relative-font-size(1.625);
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+
+  @include media-query($on-palm) {
+    padding-right: 45px;
+  }
+
+  &,
+  &:visited {
+    color: $site-title-color;
+  }
+}
+
 .site-footer {
     border-bottom: 0px solid rgb(127, 0, 0);
     border-top: 20px solid rgb(127, 0, 0);
@@ -183,6 +332,7 @@
   background-size: 100% 250%;
   background-position: center top;
 }
+
 .wrapper {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
@@ -225,8 +375,7 @@
 }
 </style>
 </head>
-<body>
-<header class="site-header">
+<body><header class="site-header">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Dr. Will Barker (威廉 巴克尔) | theoretical physics, cosmology</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -238,7 +387,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/">Home</a><a class="page-link" href="/research.html">Research</a><a class="page-link" href="/resume.html">Résumé</a><a class="page-link" href="/proposal.html">Proposal</a><a class="page-link" href="/publications.html">Publications</a><a class="page-link" href="/thesis.html">Ph.D. thesis</a><a class="page-link" href="/geometry.html">Geometric algebra</a><a class="page-link" href="/talks.html">Talks</a><a class="page-link" href="/barxiv.html">BarXiv</a><a class="page-link" href="/higgs.html">HiGGS</a><a class="page-link" href="/battcock.html">Hills Coffee Talks</a><a class="page-link" href="/teaching.html">Teaching</a><a class="page-link" href="/blog.html">Blog</a><a class="page-link" href="/laser.html">Gravity laser</a><a class="page-link" href="/summerprojects.html">Summer students</a><a class="page-link" href="/mastersprojects.html">Master&#39;s students</a><a class="page-link" href="/phdprojects.html">Ph.D. students</a></div>
+        <div class="skiff"><a class="my-page-link" href="/header_pages/">Home</a><a class="my-page-link" href="/research.html">Research</a><a class="my-page-link" href="/resume.html">Résumé</a><a class="my-page-link" href="/thesis.html">Theses</a><a class="my-page-link" href="/publications.html">Publications</a><a class="my-page-link" href="/talks.html">Talks</a><a class="my-page-link" href="/psalter.html">PSALTer</a><a class="my-page-link" href="/header_pages/Software/HiGGS.html">HiGGS</a><a class="my-page-link" href="/xplain.html">xPlain</a><a class="my-page-link" href="/barxiv.html">BarXiv</a><a class="my-page-link" href="/grqc.html">JoJo</a><a class="my-page-link" href="/battcock.html">Hills</a><a class="my-page-link" href="/teaching.html">Teaching</a><a class="my-page-link" href="/summerprojects.html">Summer students</a><a class="my-page-link" href="/mastersprojects.html">Master&#39;s students</a><a class="my-page-link" href="/phdprojects.html">Ph.D. students</a><a class="my-page-link" href="/laser.html">Gravity laser</a><a class="my-page-link" href="/blog.html">Blog</a></div>
       </nav></div>
   </div>
 </header>
@@ -254,11 +403,15 @@
   <div class="post-content">
     <body class="sph5">
 <img src="assets/papers/viva.JPEG" width="150px" alt="Remote viva voce..." title="Remote viva voce..." vspace="10" hspace="10" align="right" />
+<img src="assets/papers/thesis_in.jpeg" width="150px" alt="Submission of the hard-bound copy..." title="Submission of the hard-bound copy..." vspace="10" hspace="10" align="left" />
 <p>
 I submitted my thesis on 25/08/2021. If and when it is passed by the Degree Committee for the faculty of Physics and Chemistry, I'll make a full version available here and also leave it on the arXiv. Eventually, a full version should also find its way to the Cambridge University <a href="https://www.repository.cam.ac.uk/">Apollo Repository</a>.
 </p>
 <p>
-If you want a PDF, you can <a href="/assets/papers/Barker_PhDThesis.pdf" download=""><button type="button">download my Ph.D. thesis</button></a>
+<b>Update:</b> I graduated, and a copy is now on the <a href="https://www.repository.cam.ac.uk/handle/1810/339554">Apollo Repository</a> with DOI <a href="https://doi.org/10.17863/CAM.86972">https://doi.org/10.17863/CAM.86972</a>. I decided there is really no need to have it on the arXiv. 
+</p>
+<p>
+If you want a PDF, you can <a href="/assets/papers/Barker_PhDThesis.pdf" download=""><button type="button">download my Ph.D. thesis</button></a>. Be careful, though, because the rigidity theorem states that if you gather enough mathematical errors into a short enough book you will form a black hole: for this reason the thesis is dangerously unstable.
 </p>
 <p>
 If I can speak <tt>JavaScript</tt>, and your browser supports inline PDFs, you should see a preview below.

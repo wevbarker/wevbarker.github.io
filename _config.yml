@@ -60,23 +60,24 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 header_pages:
-  - index.md
+  - header_pages/index.md
   - research.md
   - resume.md
-  - proposal.md
-  - publications.md
   - thesis.md
-  - geometry.md
+  - publications.md
   - talks.md
+  - psalter.md
+  - header_pages/Software/HiGGS.md
+  - xplain.md
   - barxiv.md
-  - higgs.md
+  - grqc.md
   - battcock.md
   - teaching.md
-  - blog.md
-  - laser.md
   - summerprojects.md
   - mastersprojects.md
   - phdprojects.md
+  - laser.md
+  - blog.md
 
 google_analytics: UA-186155265-1
 

@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Proposal | Dr. Will Barker (威廉 巴克尔) theoretical physics, cosmology</title>
+<title>PSALTer | Dr. Will Barker (威廉 巴克尔) theoretical physics, cosmology</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="Proposal" />
+<meta property="og:title" content="PSALTer" />
 <meta name="author" content="Dr. Will E. V. Barker" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph]." />
 <meta property="og:description" content="This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph]." />
-<link rel="canonical" href="http://localhost:4000/proposal.html" />
-<meta property="og:url" content="http://localhost:4000/proposal.html" />
+<link rel="canonical" href="http://localhost:4000/psalter.html" />
+<meta property="og:url" content="http://localhost:4000/psalter.html" />
 <meta property="og:site_name" content="Dr. Will Barker (威廉 巴克尔) theoretical physics, cosmology" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Proposal" />
+<meta property="twitter:title" content="PSALTer" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Dr. Will E. V. Barker"},"description":"This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph].","headline":"Proposal","url":"http://localhost:4000/proposal.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Dr. Will E. V. Barker"},"description":"This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph].","headline":"PSALTer","url":"http://localhost:4000/psalter.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/ico" href="/favicon.ico"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dr. Will Barker (威廉 巴克尔) | theoretical physics, cosmology" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -26,6 +26,138 @@
   </script>
 
 <style>
+/*
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  padding-top: 30px;
+  @extend %clearfix;
+  background-color: rgba(255,255,255, .7);
+ */
+
+.skiff {
+    width: 100%;
+}
+/*
+.my-page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    display: block;
+    padding: 5px 10px;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    margin-left: 20px;
+  }
+*/
+
+.my-page-link {
+display: inline-block;
+padding: 0;
+&:not(:last-child) {
+margin-right: 20px;
+}
+margin-left: auto;
+}
+
+.site-nav {
+  position: relative;
+  top: 9px;
+  /*right: $spacing-unit / 2;*/
+  /*right: -100px;*/
+  /*max-width: 100px;*/
+  /*width: 200px;*/
+  background-color: $background-color;
+  border: 1px solid $border-color-01;
+  border-radius: 5px;
+  float: left;
+  text-align: left;
+  max-width: 100%;
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+
+    > svg path {
+      fill: $border-color-03;
+    }
+  }
+
+  label[for="nav-trigger"] {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 36px;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  input ~ .trigger {
+    clear: both;
+    display: none;
+  }
+
+  input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  .page-link {
+    color: $text-color;
+    line-height: $base-line-height;
+    display: block;
+    padding: 5px 10px;
+
+    // Gaps between nav items, but not on the last one
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+    margin-left: 20px;
+  }
+
+  @media screen and (min-width: $on-medium) {
+    position: static;
+    float: right;
+    border: none;
+    background-color: inherit;
+
+    label[for="nav-trigger"] {
+      display: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+
+    input ~ .trigger {
+      display: block;
+    }
+
+    .page-link {
+      display: inline;
+      padding: 0;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+      margin-left: auto;
+    }
+  }
+}
+
   body {
   background-image: url('/assets/backgrounds/tmp0.png');
   background-repeat: no-repeat;
@@ -136,7 +268,7 @@
   background-attachment: fixed;
 	}
 }
-  .div-1 {
+.div-1 {
     /*
     background-color: #ffffff;
     padding: 25px;
@@ -147,7 +279,7 @@
     border-radius: 25px;
     */
 }
-  .site-header {
+.site-header {
     border-top: 0px solid rgb(127, 0, 0);
     border-bottom: 20px solid rgb(127, 0, 0);
     border-bottom: 20px solid rgba(242, 190, 17, .7);
@@ -168,6 +300,23 @@
   background-size: 100% 270%;
   background-position: center bottom;
 }
+.site-title {
+  @include relative-font-size(1.625);
+  font-weight: 300;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+
+  @include media-query($on-palm) {
+    padding-right: 45px;
+  }
+
+  &,
+  &:visited {
+    color: $site-title-color;
+  }
+}
+
 .site-footer {
     border-bottom: 0px solid rgb(127, 0, 0);
     border-top: 20px solid rgb(127, 0, 0);
@@ -183,6 +332,7 @@
   background-size: 100% 250%;
   background-position: center top;
 }
+
 .wrapper {
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin-right: auto;
@@ -225,8 +375,7 @@
 }
 </style>
 </head>
-<body>
-<header class="site-header">
+<body><header class="site-header">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Dr. Will Barker (威廉 巴克尔) | theoretical physics, cosmology</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -238,7 +387,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/">Home</a><a class="page-link" href="/research.html">Research</a><a class="page-link" href="/resume.html">Résumé</a><a class="page-link" href="/proposal.html">Proposal</a><a class="page-link" href="/publications.html">Publications</a><a class="page-link" href="/thesis.html">Ph.D. thesis</a><a class="page-link" href="/geometry.html">Geometric algebra</a><a class="page-link" href="/talks.html">Talks</a><a class="page-link" href="/barxiv.html">BarXiv</a><a class="page-link" href="/higgs.html">HiGGS</a><a class="page-link" href="/battcock.html">Hills Coffee Talks</a><a class="page-link" href="/teaching.html">Teaching</a><a class="page-link" href="/blog.html">Blog</a><a class="page-link" href="/laser.html">Gravity laser</a><a class="page-link" href="/summerprojects.html">Summer students</a><a class="page-link" href="/mastersprojects.html">Master&#39;s students</a><a class="page-link" href="/phdprojects.html">Ph.D. students</a></div>
+        <div class="skiff"><a class="my-page-link" href="/header_pages/">Home</a><a class="my-page-link" href="/research.html">Research</a><a class="my-page-link" href="/resume.html">Résumé</a><a class="my-page-link" href="/thesis.html">Theses</a><a class="my-page-link" href="/publications.html">Publications</a><a class="my-page-link" href="/talks.html">Talks</a><a class="my-page-link" href="/psalter.html">PSALTer</a><a class="my-page-link" href="/header_pages/Software/HiGGS.html">HiGGS</a><a class="my-page-link" href="/xplain.html">xPlain</a><a class="my-page-link" href="/barxiv.html">BarXiv</a><a class="my-page-link" href="/grqc.html">JoJo</a><a class="my-page-link" href="/battcock.html">Hills</a><a class="my-page-link" href="/teaching.html">Teaching</a><a class="my-page-link" href="/summerprojects.html">Summer students</a><a class="my-page-link" href="/mastersprojects.html">Master&#39;s students</a><a class="my-page-link" href="/phdprojects.html">Ph.D. students</a><a class="my-page-link" href="/laser.html">Gravity laser</a><a class="my-page-link" href="/blog.html">Blog</a></div>
       </nav></div>
   </div>
 </header>
@@ -248,23 +397,14 @@
 <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Proposal</h1>
+    <h1 class="post-title">PSALTer</h1>
   </header>
 
   <div class="post-content">
-    <body class="sph3">
+    <body class="sph5">
 <p>
-Here is my research proposal for the 2020-2021 job application season (which is now over). If you want a PDF, you can <a href="/assets/proposal/research_statement.pdf" download=""><button type="button">download my research proposal</button></a>
+<i><b><u>PSALTer is coming soon!</u></b></i>
 </p>
-<p>
-If I can speak <tt>JavaScript</tt>, and your browser supports inline PDFs, you should see a preview below.
-</p>
-<div id="example1"></div> 
-<script src="pdfobject.js"></script>
-<script>PDFObject.embed("/assets/proposal/research_statement.pdf", "#example1");</script>
-<style>
-.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
-</style>
 </body>
 
   </div>
