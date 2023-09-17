@@ -4,6 +4,13 @@ title: Master's students
 ---
 <body class="sph5">
 <h1>
+The group
+</h1>
+<p>The embed below should be clickable.</p>
+<embed
+  src="/assets/CV/StuGantt/StuGantt.pdf#toolbar=0&navpanes=0&scrollbar=0"
+  width="100%" height="300" />
+<h1>
 Resources
 </h1>
 The plan (for the moment) is that together with co-supervisors <a href="https://yallup.github.io/">Dr. Yallup</a> and <a href="https://www.fzu.cz/en/people/amel-durakovic-phd">Dr. Durakovic</a>, I will leave in this section resources (mostly as links, but perhaps with some downloadable content) which are mentioned during our meetings.

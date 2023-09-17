@@ -3,6 +3,13 @@ layout: page
 title: Ph.D. students 
 ---
 <body class="sph5">
+<h1>
+The group
+</h1>
+<p>The embed below should be clickable.</p>
+<embed
+  src="/assets/CV/StuGantt/StuGantt.pdf#toolbar=0&navpanes=0&scrollbar=0"
+  width="100%" height="300" />
 <h2>Current Ph.D. Students</h2>
 <h3>Going to conferences</h3>
 <p>
