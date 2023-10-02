@@ -11,6 +11,34 @@ The group
   src="/assets/CV/StuGantt/StuGantt.pdf#toolbar=0&navpanes=0&scrollbar=0"
   width="100%" height="300" />
 <h2>Current Ph.D. Students</h2>
+<h3>Miscellaneous materials</h3>
+Regarding the Schwarzschild chart for Arthur, I believe that the following snippet should parse:
+<pre>
+<code>
+<<xAct`xPlain`;
+
+Comment@"Define some functions that will parameterise our line element.";
+
+DefScalarFunction[A,PrintAs->"\[ScriptCapitalA]"];
+DefScalarFunction[B,PrintAs->"\[ScriptCapitalB]"];
+
+Comment@"Define the chart for spherical polar coordinates.";
+
+DefChart[SphericalPolar,M4,{0,1,2,3},{ct[],cr[],ctheta[],cphi[]},ChartColor->Green];
+
+PrintAs@ct^="\[ScriptT]";
+PrintAs@cr^="\[ScriptR]";
+PrintAs@ctheta^="\[Theta]";
+PrintAs@cphi^="\[Phi]";
+
+Comment@"Set the components of the metric.";
+
+MatrixForm[MatrixSphericalPolar=DiagonalMatrix[{A[cr[]],-B[cr[]],-cr[]^2,-cr[]^2*Sin[ctheta[]]^2}]];
+MatrixForm@MetricInBasis[G,-SphericalPolar,MatrixSphericalPolar];
+MetricCompute[G,SphericalPolar,All,Verbose->False];
+</code>
+</pre>
+
 <h3>Going to conferences</h3>
 <p>
 It is very important that you attend lots of conferences during your Ph.D.. Conferences are an opportunity for you to do several things; 
