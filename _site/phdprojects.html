@@ -260,7 +260,9 @@ The group
 <embed src="/assets/CV/StuGantt/StuGantt.pdf#toolbar=0&amp;navpanes=0&amp;scrollbar=0" width="100%" height="300" />
 <h2>Current Ph.D. Students</h2>
 <h3>Miscellaneous materials</h3>
+<p>
 Regarding the Schwarzschild chart for Arthur, I believe that the following snippet should parse:
+</p>
 <pre>
 <code>
 &lt;&lt;xAct`xPlain`;
@@ -286,6 +288,10 @@ MatrixForm@MetricInBasis[G,-SphericalPolar,MatrixSphericalPolar];
 MetricCompute[G,SphericalPolar,All,Verbose-&gt;False];
 </code>
 </pre>
+
+<p>
+The key point is that you can't define a chart with xTensor, because xTensor is purely abstract and has not functionality for explicit coordinate functions. That is the whole point of xCoba. You can grab the xPlain package from my GitHub page, and note that my choice of metric symbol and Penrose slots may differ from yours.
+</p>
 
 <h3>Going to conferences</h3>
 <p>
