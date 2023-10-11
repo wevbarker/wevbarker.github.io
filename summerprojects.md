@@ -9,7 +9,7 @@ The group
 <p>The embed below should be clickable.</p>
 <embed
   src="/assets/CV/StuGantt/StuGantt.pdf#toolbar=0&navpanes=0&scrollbar=0"
-  width="100%" height="300" />
+  width="100%" height="470" />
 <h2>Summer of 2023</h2>
 <h3>
 Cosmological perturbation theory
