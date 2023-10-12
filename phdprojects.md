@@ -44,6 +44,68 @@ MetricCompute[G,SphericalPolar,All,Verbose->False];
 <p>
 The key point is that you can't define a chart with xTensor, because xTensor is purely abstract and has not functionality for explicit coordinate functions. That is the whole point of xCoba. You can grab the xPlain package from my GitHub page, and note that my choice of metric symbol and Penrose slots may differ from yours.
 </p>
+<p>
+Speaking of differences in defined symbols, I make a point of using Pascal case for Wolfram Language computations as far as possible. For this reason, my metric is usually <tt>G</tt>, and I tend to allocate all the lower-case letters to abstract indices with the <tt>Alphabet[]</tt> command. For example, this snippet is part of my basic setup:
+</p>
+<pre>
+<code>
+(*===============*)
+(*  DefManifold  *)
+(*===============*)
+
+Comment@"We will define a manifold.";
+DefManifold[M4,4,IndexRange[{a,z}]];
+
+Comment@"We will define a metric and covariant derivative.";
+GSymb="\[ScriptG]";
+DefMetric[-1,G[-a,-b],CD,{";","\!\(\*OverscriptBox[\(\[Del]\), \(\[SmallCircle]\)]\)"},PrintAs->GSymb,SymCovDQ->True];
+
+(*-----------------------------------------------------------------------*)
+(*  Relabeling of the indices so that we can type Roman and look Greek!  *)
+(*-----------------------------------------------------------------------*)
+
+StandardIndices=ToString/@Alphabet[];
+
+GeoStandardIndicesSymb=(ToString@#)&/@Evaluate@((#[[2]])&/@{
+	{a,"\[Alpha]"},
+	{b,"\[Beta]"},
+	{c,"\[Chi]"},
+	{d,"\[Delta]"},
+	{e,"\[Epsilon]"},
+	{f,"\[Phi]"},
+	{g,"\[Gamma]"},
+	{h,"\[Eta]"},
+	{i,"\[Iota]"},
+	{j,"\[Theta]"},
+	{k,"\[Kappa]"},
+	{l,"\[Lambda]"},
+	{m,"\[Mu]"},
+	{n,"\[Nu]"},
+	{o,"\[Omicron]"},
+	{p,"\[Pi]"},
+	{q,"\[Omega]"},
+	{r,"\[Rho]"},
+	{s,"\[Sigma]"},
+	{t,"\[Tau]"},
+	{u,"\[Upsilon]"},
+	{v,"\[Psi]"},
+	{w,"\[Omega]"},
+	{x,"\[Xi]"},
+	{y,"\[CurlyPhi]"},
+	{z,"\[Zeta]"}});
+
+(PrintAs@Evaluate@#1^=Evaluate@#2)&~MapThread~{ToExpression/@StandardIndices,GeoStandardIndicesSymb};
+</code>
+</pre>
+<p>
+For the example sent by Arthur, <tt>g</tt> is used instead of <tt>G</tt>, and only limited indices are available. In this case I think this will work:
+</p>
+<pre>
+<code>
+MatrixForm@MetricInBasis[g,-SphericalPolar,MatrixSphericalPolar];
+MetricCompute[g,SphericalPolar,All,Verbose->False];
+</code>
+</pre>
 
 <h3>Going to conferences</h3>
 <p>
