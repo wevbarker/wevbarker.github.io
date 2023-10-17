@@ -151,6 +151,11 @@ The "<i>Oscillations, waves and optics</i>" course is an ill-conceived collectio
 <img src="assets/teaching/oscillations_waves_and_optics/lecture-2.png" width="100%" oncontextmenu="return false;" />
 </p>
 <h3>Lecture 1 (14:00-16:00 Thursday 13th October 2022)</h3>
+<p><b><i><u>Repeat: 15:30-18-30 Tuesday 17th October 2023</u></i></b></p>
+<p>
+Oscillating systems, complex notation, response functions, power transfer, \(Q\)-factor, amplitude, velocity and acceleration response, resonance.
+</p>
+<p>
 <p>
 <img src="assets/teaching/oscillations_waves_and_optics/lecture-1.png" width="100%" oncontextmenu="return false;" />
 </p>
