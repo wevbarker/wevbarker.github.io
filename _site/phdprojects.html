@@ -309,8 +309,8 @@ Regarding the Schwarzschild chart for Arthur, I believe that the following snipp
 
 Comment@"Define some functions that will parameterise our line element.";
 
-DefScalarFunction[A,PrintAs-&gt;"\[ScriptCapitalA]"];
-DefScalarFunction[B,PrintAs-&gt;"\[ScriptCapitalB]"];
+DefScalarFunction[B1,PrintAs-&gt;"\[CapitalTheta]"];
+DefScalarFunction[B2,PrintAs-&gt;"\[CapitalOmega]"];
 
 Comment@"Define the chart for spherical polar coordinates.";
 
@@ -323,7 +323,7 @@ PrintAs@cphi^="\[Phi]";
 
 Comment@"Set the components of the metric.";
 
-MatrixForm[MatrixSphericalPolar=DiagonalMatrix[{A[cr[]],-B[cr[]],-cr[]^2,-cr[]^2*Sin[ctheta[]]^2}]];
+MatrixForm[MatrixSphericalPolar=DiagonalMatrix[{B1[cr[]]^2,-B2[cr[]]^2,-cr[]^2,-cr[]^2*Sin[ctheta[]]^2}]];
 MatrixForm@MetricInBasis[G,-SphericalPolar,MatrixSphericalPolar];
 MetricCompute[G,SphericalPolar,All,Verbose-&gt;False];
 </code>
@@ -394,6 +394,161 @@ MatrixForm@MetricInBasis[g,-SphericalPolar,MatrixSphericalPolar];
 MetricCompute[g,SphericalPolar,All,Verbose-&gt;False];
 </code>
 </pre>
+<h3>Extracting components from the field equations</h3>
+<p>
+Let's first check that the metric defined was what we wanted:
+</p>
+<pre><code>
+Comment@"Just to check the line element which we built here, let's have a look!";
+
+Expr=G[{-a,-SphericalPolar},{-b,-SphericalPolar}];
+DisplayExpression@Expr;
+Expr//=ComponentArray;
+DisplayExpression@MatrixForm@Expr;
+Expr//=ToValues;
+DisplayExpression@MatrixForm@Expr;
+
+Comment@"Now how about the inverse metric?";
+
+Expr=G[{a,SphericalPolar},{b,SphericalPolar}];
+DisplayExpression@Expr;
+Expr//=ComponentArray;
+DisplayExpression@MatrixForm@Expr;
+Expr//=ToValues;
+DisplayExpression@MatrixForm@Expr;
+</code></pre>
+<p>
+Assuming we're happy with that, we can also define some scalar fields: 
+</p>
+<pre><code>
+DefTensor[Phi[],M4,PrintAs-&gt;"\[Phi]"];
+DefTensor[Psi[],M4,PrintAs-&gt;"\[Psi]"];
+
+DefScalarFunction[Psis,PrintAs-&gt;"\[Psi]"];
+DefScalarFunction[Phis,PrintAs-&gt;"\[Phi]"];
+</code></pre>
+We can introduce a useful function for moving to the Schwarzschild-like chart:
+<pre><code>
+RawSchwarzschildLike[Expr_]:=Module[{SchwarzschildLikeExpr=Expr},
+	SchwarzschildLikeExpr//=NoScalar;	
+	SchwarzschildLikeExpr=SchwarzschildLikeExpr/.{
+		Phi[]-&gt;Phis[cr[]],
+		Psi[]-&gt;Psis[cr[]]
+		};	
+	SchwarzschildLikeExpr//=ToBasis[SphericalPolar];
+	SchwarzschildLikeExpr//=TraceBasisDummy;
+	SchwarzschildLikeExpr//=ToValues;
+	SchwarzschildLikeExpr//=ToValues;
+
+	(*----------------------------------------*)
+	(*  Evaluate at the equator of the chart  *)
+	(*----------------------------------------*)
+
+	SchwarzschildLikeExpr=SchwarzschildLikeExpr/.{ctheta[]-&gt;Pi/2};
+
+	(*--------------------------------------------------------------------*)
+	(*  Now that variations are done, we reveal the square root function  *)
+	(*--------------------------------------------------------------------*)
+
+	SchwarzschildLikeExpr];
+
+ToSchwarzschildLike[Expr_]:=Module[{SchwarzschildLikeExpr=Expr},
+
+	(*-----------------------------------------------------*)
+	(*  Even inside scalars, impose the coordinate ansatz  *)
+	(*-----------------------------------------------------*)
+
+	SchwarzschildLikeExpr=SchwarzschildLikeExpr/.{xAct`xTensor`Scalar-&gt;RawSchwarzschildLike};
+
+	(*---------------------------------------*)
+	(*  Then impose the ansatz on the whole  *)
+	(*---------------------------------------*)
+
+	SchwarzschildLikeExpr//=RawSchwarzschildLike;	
+
+	(*------------------------------------------------------------------*)
+	(*  Assume we evaluate at a point in the chart with nonzero radius  *)
+	(*------------------------------------------------------------------*)
+
+	SchwarzschildLikeExpr//=Simplify;	
+
+	SchwarzschildLikeExpr];
+</code></pre>
+<p>
+How to set up reduced radial-function components of a tensor field which is not the metric, of course in MoND we have the unit-timelike vector field. To implement this we try: 
+</p>
+<pre><code>
+Comment@"We wish to define a unit-timelike one-form.";
+
+DefTensor[A[-a],M4,PrintAs-&gt;"\[ScriptCapitalA]"];
+
+Expr=A[{-a,-SphericalPolar}];
+DisplayExpression@Expr;
+Expr//=ComponentArray;
+Expr//=ToValues;
+DisplayExpression@Expr;
+
+Comment@"We know that this one-form has the property of being unit-timelike, and that the Killing algebra is spherical. So, we define a couple of scalar functions.";
+
+DefScalarFunction[A1,PrintAs-&gt;"\[CapitalPhi]"];
+DefScalarFunction[A2,PrintAs-&gt;"\[CapitalPsi]"];
+
+AllComponentValues[A[{-a,-SphericalPolar}],{A1[cr[]],B2[cr[]]*Sqrt[A1[cr[]]^2/B1[cr[]]^2-1],0,0}];
+
+Expr=A[{-a,-SphericalPolar}];
+DisplayExpression@Expr;
+Expr//=ComponentArray;
+DisplayExpression@Expr;
+Expr//=ToValues;
+DisplayExpression@Expr;
+</code></pre>
+<p>
+To check that a simple expression is carried properly to the component form:
+</p>
+<pre><code>
+Expr=CD[-a]@Phi[]*CD[-b]@Psi[]*G[a,b];
+DisplayExpression@Expr;
+Expr//=ToSchwarzschildLike;
+DisplayExpression@Expr;
+</code></pre>
+<p>
+Next something more advanced, we want to show that our one-form really does the job:
+</p>
+
+<pre><code>
+Expr=A[-a]*A[a];
+DisplayExpression@Expr;
+Expr//=SeparateMetric[G];
+Expr//=ScreenDollarIndices;
+DisplayExpression@Expr;
+Expr//=ToSchwarzschildLike;
+DisplayExpression@Expr;
+</code></pre>
+
+<p>
+Great. Now let's check that this can be used for more complex expressions:
+</p>
+
+<pre><code>
+Expr=A[-a]*A[-b]*RicciCD[a,b];
+DisplayExpression@Expr;
+Expr//=SeparateMetric[G];
+Expr//=ScreenDollarIndices;
+DisplayExpression@Expr;
+Expr//=ToSchwarzschildLike;
+DisplayExpression@Expr;
+</code></pre>
+
+<p>
+Now know already how to obtain field equations from basically any tensor field theory with abstract Penrose slot indices, but you need to be able to get the components of those equations. You can typically adapt the following steps:
+</p>
+
+<pre><code>
+Expr=G[-a,-b];
+DisplayExpression@Expr;
+Expr=ToSchwarzschildLike/@(Expr//ToBasis[SphericalPolar]//ComponentArray);
+DisplayExpression@Expr;
+</code></pre>
 
 <h3>Going to conferences</h3>
 <p>
