@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Résumé 
+title: CV 
 ---
 <body class="sph2">
 <p>

@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Teaching 
+title: Undergraduate
 ---
 
 <body class="sph8">

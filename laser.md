@@ -1,6 +1,6 @@
 ---
 layout: page 
-title: Gravity laser 
+title: Frivolities 
 ---
 <head>
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->

@@ -1,8 +1,8 @@
 ---
 layout: page 
-title: Master's students 
+title: Graduate
 ---
-<body class="sph5">
+<body class="sph6">
 <h1>
 The group
 </h1>

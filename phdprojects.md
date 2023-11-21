@@ -1,8 +1,8 @@
 ---
 layout: page 
-title: Ph.D. students 
+title: Doctoral 
 ---
-<body class="sph5">
+<body class="sph9">
 <h1>
 The group
 </h1>

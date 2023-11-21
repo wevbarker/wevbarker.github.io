@@ -61,22 +61,15 @@ plugins:
   - jekyll-sitemap
 header_pages:
   - index.md
-  - research.md
   - resume.md
-  - proposal.md
-  - publications.md
   - thesis.md
-  - geometry.md
-  - talks.md
-  - barxiv.md
-  - higgs.md
-  - battcock.md
+  - software.md
   - teaching.md
-  - blog.md
-  - laser.md
-  - summerprojects.md
   - mastersprojects.md
   - phdprojects.md
+  - summerprojects.md
+  - battcock.md
+  - blog.md
 
 google_analytics: UA-186155265-1
 

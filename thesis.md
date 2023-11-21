@@ -1,8 +1,11 @@
 ---
 layout: page 
-title: Ph.D. thesis 
+title: Theses 
 ---
 <body class="sph5">
+<h2>
+Ph.D. thesis 
+</h2>
 <img src="assets/papers/viva.JPEG" width=150px  alt="Remote viva voce..." title="Remote viva voce..." vspace="10" hspace="10" align="right" />
 <img src="assets/papers/thesis_in.jpeg" width=150px  alt="Submission of the hard-bound copy..." title="Submission of the hard-bound copy..." vspace="10" hspace="10" align="left" />
 <p>

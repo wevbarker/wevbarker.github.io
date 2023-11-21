@@ -1,8 +1,8 @@
 ---
 layout: page 
-title: Summer students 
+title: Internships
 ---
-<body class="sph7">
+<body class="sph3">
 <h1>
 The group
 </h1>

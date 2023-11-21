@@ -3,21 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>BarXiv | Dr. Will Barker (威廉 巴克尔) theoretical physics, cosmology</title>
+<title>Software | Dr. Will Barker (威廉 巴克尔) theoretical physics, cosmology</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="BarXiv" />
+<meta property="og:title" content="Software" />
 <meta name="author" content="Dr. Will E. V. Barker" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph]." />
 <meta property="og:description" content="This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph]." />
-<link rel="canonical" href="http://localhost:4000/barxiv.html" />
-<meta property="og:url" content="http://localhost:4000/barxiv.html" />
+<link rel="canonical" href="http://localhost:4000/software.html" />
+<meta property="og:url" content="http://localhost:4000/software.html" />
 <meta property="og:site_name" content="Dr. Will Barker (威廉 巴克尔) theoretical physics, cosmology" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="BarXiv" />
+<meta property="twitter:title" content="Software" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Dr. Will E. V. Barker"},"description":"This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph].","headline":"BarXiv","url":"http://localhost:4000/barxiv.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Dr. Will E. V. Barker"},"description":"This site is for theoretical, high-energy and gravitational physics and cosmology (broadly defined). More specific topics might include differential geometry, geometric algebra, gauge theories of gravity. Blog-Mu-Nu is a blog which reviews interesting arXiv preprints from [gr-qc], [hep-th] and [astro-ph].","headline":"Software","url":"http://localhost:4000/software.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
   <link rel="shortcut icon" type="image/ico" href="/favicon.ico"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dr. Will Barker (威廉 巴克尔) | theoretical physics, cosmology" /><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -278,7 +278,7 @@ pre {
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/">Home</a><a class="page-link" href="/research.html">Research</a><a class="page-link" href="/resume.html">Résumé</a><a class="page-link" href="/proposal.html">Proposal</a><a class="page-link" href="/publications.html">Publications</a><a class="page-link" href="/thesis.html">Ph.D. thesis</a><a class="page-link" href="/geometry.html">Geometric algebra</a><a class="page-link" href="/talks.html">Talks</a><a class="page-link" href="/barxiv.html">BarXiv</a><a class="page-link" href="/higgs.html">HiGGS</a><a class="page-link" href="/battcock.html">Journal clubs</a><a class="page-link" href="/teaching.html">Teaching</a><a class="page-link" href="/blog.html">Blog</a><a class="page-link" href="/laser.html">Gravity laser</a><a class="page-link" href="/summerprojects.html">Summer students</a><a class="page-link" href="/mastersprojects.html">Master&#39;s students</a><a class="page-link" href="/phdprojects.html">Ph.D. students</a></div>
+        <div class="trigger"><a class="page-link" href="/">Home</a><a class="page-link" href="/resume.html">CV</a><a class="page-link" href="/thesis.html">Theses</a><a class="page-link" href="/software.html">Software</a><a class="page-link" href="/teaching.html">Undergraduate</a><a class="page-link" href="/mastersprojects.html">Graduate</a><a class="page-link" href="/phdprojects.html">Doctoral</a><a class="page-link" href="/summerprojects.html">Internships</a><a class="page-link" href="/battcock.html">Series</a><a class="page-link" href="/blog.html">Blog</a></div>
       </nav></div>
   </div>
 </header>
@@ -288,91 +288,20 @@ pre {
 <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">BarXiv</h1>
+    <h1 class="post-title">Software</h1>
   </header>
 
   <div class="post-content">
-    <body class="pol">
-<h2><img src="assets/barxiv/barxiv_icons/postarxiv.png" width="30" /> Beamer arXiv citations aged with Matplotlib colormaps <img src="assets/barxiv/barxiv_icons/prearxiv.png" width="30" /></h2>
-BarXiv is a very simple `LaTeX2e` package for the `beamer` class. It enables audience-friendly citations of papers which may or may not be on the [arXiv](https://arxiv.org). These are highlighted according to the age of the reference, according to the ubiquitous colormaps of Matplotlib. BarXiv **does not need** Python.
-<h2>Install and use</h2>
-<ol>
-  <li>
-  <b>Download</b> <tt>barxiv.tar.gz</tt> from the <a href="https://github.com/wevbarker/barxiv">github repo</a> and <b>unzip</b> to your <tt>.tex</tt> and <tt>.bib</tt> working directory:
-  <pre>
-  <code>tar -C &lt;working_directory_name&gt;/ -xvf barxiv.tar.gz</code>
-  </pre>
-  </li>
-  <li>
-  <b>Load</b> the package into your preamble:
-  <pre>
-  <code>\usepackage[bib file = &lt;bib_file_name&gt;.bib, cmap = rainbow, saturation = 40]{barxiv}</code>
-  </pre>
-  </li>
-  <li>
-  <b>Try</b> putting <tt>\barxiv{&lt;bibtex_label&gt;}</tt> in place of <tt>\cite{&lt;bibtex_label&gt;}</tt> and twiddling the options
-  <ul>
-   <li><tt>bib file</tt> or <tt>bibfile</tt>: self-explanatory</li>
-   <li><tt>cmap</tt>: your favorite Matplotlib colormap such as <tt>viridis</tt> (default), <tt>cubehelix</tt> or <tt>spring</tt>; a full list can be found <a href="https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html">here</a></li>
-   <li><tt>saturation</tt>: a percentage value, since many colormaps are rather dark</li>
-  </ul>
-  </li>
-</ol>
-<h2>Demonstration</h2>
-<p>
-Here is a simple `beamer` frame to illustrate `barxiv` in use for some `cmap` choices.\
-<ul>
-<li>For <tt>hsv</tt>:</li>
-<img src="assets/barxiv/sample_slides/hsv.png" width="600" />
-<li>For <tt>spring</tt>:</li>
-<img src="assets/barxiv/sample_slides/spring.png" width="600" />
-<li>For <tt>summer</tt>:</li>
-<img src="assets/barxiv/sample_slides/summer.png" width="600" />
-<li>For <tt>winter</tt>:</li>
-<img src="assets/barxiv/sample_slides/winter.png" width="600" />
-<li>For <tt>binary</tt>:</li>
-<img src="assets/barxiv/sample_slides/binary.png" width="600" />
-<li>For <tt>inferno</tt>:</li>
-<img src="assets/barxiv/sample_slides/inferno.png" width="600" />
-<li>For <tt>Wistia</tt>:</li>
-<img src="assets/barxiv/sample_slides/Wistia.png" width="600" />
-</ul>
-</p>
-<p>
-This frame was generated with `presentation.tex` as follows (note I don't include `presentation.bib`). The preamble explicitly contains all current `barxiv` options:
-</p>
-<pre>
-<code>
-\documentclass{beamer}
-\usepackage[utf8]{inputenc}
-\usepackage[bib file = presentation.bib, cmap = rainbow, saturation = 40]{barxiv}
-</code>
-</pre>
-<p>
-The body is much as you would expect:
-</p>
-<pre>
-<code>
-\begin{document}
-\tiny
-\begin{frame}
-  \frametitle{A \texttt{beamer} frame to demonstrate \texttt{barxiv}}
-  \begin{itemize}
-    \item You can recycle the \texttt{.bib} from your latest paper in your \texttt{beamer} talk, and use \texttt{\symbol{92}barxiv} just as you would use \texttt{\symbol{92}cite}.
-    \item Today, all the \textbf{best} papers are on the \textbf{arXiv}, such as \barxiv{2019JMP....60e2504B,2017CQGra..34t5006B,2017CQGra..34p7001B}.
-    \item In a talk, the audience might just have time to note an arXiv telephone number.
-    \item The \textbf{arXiv} contains more than one eprint \textbf{class}, e.g. \barxiv{2019arXiv190800993Y,2016IJMPS..4060010N}.
-    \item Long ago, books such as \barxiv{1984ucp..book.....W}, or very important papers such as \barxiv{Ashtekar_1991}, had no \textbf{arXiv} on which to appear\footnote{Because the \texttt{barxiv} command is \textbf{robust}, \barxiv{2019JMP....60e2504B,1984ucp..book.....W} should appear well in \textbf{footnotes} and \textbf{captions}.}.
-    \item The \textbf{colours} reflect the \textbf{age} of the reference: a decent literature review such as \barxiv{PhysRev.101.1597,1961JMP.....2..212K,1975NCimB..28..127K,1985AmJPh..53..510H,lasenby-doran-heineke-2005,2019arXiv190800993Y,2013CQGra..30t5010C,2015arXiv151201202H,2011CQGra..28u5017B,1972PhLA...39..219K,2011JPhCS.330a2005H,2011PhRvD..83b4001B,1984CQGra...1..651G,2009PhRvD..79b7301L,1979PhLA...75...27T,2008PhRvD..78b3522S,2005NewAR..49...59P,1980PhRvD..21.3269S,1980PhLA...80..232M,RevModPhys.36.463} is thus very \textbf{colourful}.
-    \item Bibliographies are not so common in \texttt{beamer} talks, but the \texttt{bibtex} backend supports them if you so choose: this is compatible with \texttt{barxiv}, though slightly against its spirit!
-    \item {\large Citations \barxiv{1998RSPTA.356..487L} should scale with font \textbf{size} or font \textsc{style \barxiv{Ashtekar_1991}} }
-  \end{itemize}
-\end{frame}
-
-\end{document}
-</code>
-</pre>
+    <body class="sph1">
+<p>In general, my software is hosted on <a href="https://github.com/wevbarker/PSALTer">my GitHub profile</a> and among the various projects, there are two more-or-less polished packages listed below.</p>
+    <div w3-include-html="/software/PSALTer.html"></div>
+    <div w3-include-html="/software/HiGGS.html"></div>
 </body>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<script src="includeHTML.js"></script>
+
 
   </div>
 

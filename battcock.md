@@ -1,8 +1,8 @@
 ---
 layout: page 
-title: Journal clubs 
+title: Series 
 ---
-<body class="sph7">
+<body class="sph2">
 <h2>General relativity and quantum cosmology international journal club</h2>
 <img src="assets/battcock/gr-qc.png" width=350px  alt="[gr-qc]" title="[gr-qc]" vspace="10" hspace="10" align="right" />
 <p>
