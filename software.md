@@ -7,6 +7,7 @@ title: Software
     <div w3-include-html="/software/PSALTer.html"></div>
     <div w3-include-html="/software/HiGGS.html"></div>
     <div w3-include-html="/software/xPlain.html"></div>
+    <div w3-include-html="/software/barxiv.html"></div>
 </body>
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
