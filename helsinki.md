@@ -11,7 +11,16 @@ title: Using supercomputers to search for quantum gravity whilst constraining pr
 <p>Welcome! This is not (yet) a public page: if you've landed here, then it is probably because I sent you a private link. In that case you already know something about the aims and scope of the project: if not, you can get more information by reading the research proposals in the <i>Pending grants</i> section below.</p>
 <p>The picture in the background shows a lake near Tartu, I didn't take any good photos of Helsinki.</p>
 <h2>Ongoing science</h2>
+<p>
 Current resources to be shared among Carlo Marzo, Oleg Melichev, Roberto Percacci, Syksy Räsänen and Sebastian Zell.
+</p>
+<h3>The Christmas PSALTer bugs</h3>
+<p>
+During Christmas of 2023, separate projects with Sebastian and Carlo stalled due to a series of bugs. I think I've now resolved these: they were due to the presence of both symmetric and antisymmetric formats for the parity-odd tensor mode in the distortion. A big clue was that the bare Lagrangian \(A_{\mu\nu\sigma}A^{\nu\mu\sigma}\) was giving me propagating modes: clearly wrong, since this is algebraic! Whilst implementing the fix, some useful formulae for the tensor modes were obtained, see below.
+</p>
+<p>
+<img src="/helsinki/Residues.png" width="100%" oncontextmenu="return false;" />
+</p>
 <h2>Pending grants</h2>
 Two avenues of funding are being explored as ways to support the work over the next few years: MSCA and RCF. The results of these applications will not be known until February 2024 at the earliest. Some other grants are pending, but these are not associated with Finland.
 <h3>Research Council of Finland</h3>
